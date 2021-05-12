@@ -18,8 +18,6 @@ More detailed documentation is available at: <https://support.gainsight.com/PX/M
 
 More detailed documentation is available at: <https://support.gainsight.com/PX/Mobile/01Getting_Started/Integrate_Gainsight_PX_Editor_with_your_Mobile_Platform>
 
-https://github.com/MacDownApp/macdown
-
 ## License
 
 
