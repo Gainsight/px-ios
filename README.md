@@ -1,3 +1,7 @@
+[![N|Solid](https://app-dev.aptrinsic.com/home/gainsight-px-logo.svg)](https://app.aptrinsic.com)
+
+![version](https://img.shields.io/badge/version-1.4.4-green.svg)
+
 # Installation
 
 GainsighPX is available through CocoaPods.
