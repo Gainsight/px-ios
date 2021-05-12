@@ -1,6 +1,6 @@
 [![N|Solid](https://app-dev.aptrinsic.com/home/gainsight-px-logo.svg)](https://app.aptrinsic.com)
 
-![version](https://img.shields.io/badge/version-1.4.4-green.svg)
+![version](https://img.shields.io/badge/version-1.4.4-blue.svg)  ![coverage](https://img.shields.io/badge/coverage-81%25-yellowgreen) ![PXKit](https://github.com/aptrinsic/ios-sdk/workflows/GainsightPX%20Framework/badge.svg?branch=feature%2FAPP-14013_local_evn_setup)
 
 # Installation
 
