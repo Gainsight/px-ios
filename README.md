@@ -1,8 +1,8 @@
-#Installation
+# Installation
 
 GainsighPX is available through CocoaPods.
 
-###CocoaPods
+### CocoaPods
 
 ```
 pod 'PXKit', :git => 'git@github.com:Gainsight/px-ios.git'
