@@ -12,6 +12,4 @@ Pod::Spec.new do |s|
   s.swift_version = '4.2'
 
   s.ios.vendored_frameworks = 'PXKit.xcframework'
-  s.source_files = [**/Headers/PXKit-Swift.h]
-
 end
