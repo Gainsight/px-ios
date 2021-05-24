@@ -140,7 +140,7 @@ public enum ConnectionMode {
   case eu
   case custom(host: Swift.String)
 }
-@objc(PXGlobalContext) public class GlobalContext : ObjectiveC.NSObject {
+@objc public class GlobalContext : ObjectiveC.NSObject {
   @objc public func setString(key: Swift.String, value: Swift.String) -> PXKit.GlobalContext
   @objc public func setDouble(key: Swift.String, value: Swift.Double) -> PXKit.GlobalContext
   @objc public func setBoolean(key: Swift.String, value: Swift.Bool) -> PXKit.GlobalContext
@@ -629,7 +629,7 @@ extension UIImageView {
   public func af_cancelImageRequest()
   public func run(_ imageTransition: UIKit.UIImageView.ImageTransition, with image: PXKit.Image)
 }
-@objc(PXAccount) public class Account : ObjectiveC.NSObject {
+@objc public class Account : ObjectiveC.NSObject {
   @objc final public let id: Swift.String
   @objc public var name: Swift.String?
   @objc public var trackedSubscriptionId: Swift.String?
@@ -816,7 +816,7 @@ extension AFIError : Foundation.LocalizedError {
     get
   }
 }
-@objc(PXUser) public class User : ObjectiveC.NSObject {
+@objc public class User : ObjectiveC.NSObject {
   @objc public var ide: Swift.String
   @objc public var email: Swift.String?
   @objc public var userHash: Swift.String?
@@ -872,7 +872,7 @@ extension UIButton {
   public func af_setBackgroundImage(for state: PXKit.ControlState, urlRequest: PXKit.URLRequestConvertible, placeholderImage: UIKit.UIImage? = nil, filter: PXKit.ImageFilter? = nil, progress: PXKit.ImageDownloader.ProgressHandler? = nil, progressQueue: Dispatch.DispatchQueue = DispatchQueue.main, completion: ((PXKit.DataResponse<UIKit.UIImage>) -> Swift.Void)? = nil)
   public func af_cancelBackgroundImageRequest(for state: PXKit.ControlState)
 }
-@objc(PXAnalyticsConfigurations) public class AnalyticsConfigurations : ObjectiveC.NSObject {
+@objc public class AnalyticsConfigurations : ObjectiveC.NSObject {
   @objc public var apiKey: Swift.String
   @objc public var crypto: PXKit.GPXCrypto?
   @objc public var connection: PXKit.Connection
@@ -1186,7 +1186,7 @@ open class SessionManager {
     get
   }
 }
-@objc(PXConnection) public class Connection : ObjectiveC.NSObject {
+@objc public class Connection : ObjectiveC.NSObject {
   public var connectionMode: PXKit.ConnectionMode {
     get
     set
