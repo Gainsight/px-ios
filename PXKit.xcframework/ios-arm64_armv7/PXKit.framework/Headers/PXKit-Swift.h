@@ -212,8 +212,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 @class NSNumber;
 
-SWIFT_CLASS_NAMED("Account")
-@interface PXAccount : NSObject
+SWIFT_CLASS("_TtC5PXKit7Account")
+@interface Account : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull id;
 @property (nonatomic, copy) NSString * _Nullable name;
 @property (nonatomic, copy) NSString * _Nullable trackedSubscriptionId;
@@ -243,17 +243,17 @@ SWIFT_CLASS_NAMED("Account")
 @end
 
 @protocol GPXCrypto;
-@class PXConnection;
+@class Connection;
 @class UIApplication;
 @class UIWindow;
 
-SWIFT_CLASS_NAMED("AnalyticsConfigurations")
-@interface PXAnalyticsConfigurations : NSObject
+SWIFT_CLASS("_TtC5PXKit23AnalyticsConfigurations")
+@interface AnalyticsConfigurations : NSObject
 /// apiKey for GPX engine
 @property (nonatomic, copy) NSString * _Nonnull apiKey;
 /// Encrypt and decrypt protocol which writes encrypted data to the file with your own encryption/decryption algorithm
 @property (nonatomic, strong) id <GPXCrypto> _Nullable crypto;
-@property (nonatomic, strong) PXConnection * _Nonnull connection;
+@property (nonatomic, strong) Connection * _Nonnull connection;
 /// flushQueue size of the events, default is 30
 /// precondition:
 /// must be greater than 20
@@ -298,8 +298,8 @@ SWIFT_CLASS_NAMED("AnalyticsConfigurations")
 
 enum PXHost : NSInteger;
 
-SWIFT_CLASS_NAMED("Connection")
-@interface PXConnection : NSObject
+SWIFT_CLASS("_TtC5PXKit10Connection")
+@interface Connection : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull host;
 @property (nonatomic) NSTimeInterval timeoutIntervalForRequest;
 @property (nonatomic) NSTimeInterval timeoutIntervalForResource;
@@ -312,18 +312,18 @@ SWIFT_CLASS_NAMED("Connection")
 
 
 @protocol UIMapperConsuming;
-@class PXGlobalContext;
+@class GlobalContext;
 @class ScreenEvent;
-@class PXUser;
+@class User;
 
 SWIFT_CLASS("_TtC5PXKit11GainsightPX")
 @interface GainsightPX : NSObject
 @property (nonatomic, weak) id <UIMapperConsuming> _Nullable uiMapperConsumer;
-@property (nonatomic, strong) PXAnalyticsConfigurations * _Null_unspecified analyticsConfigurations;
-@property (nonatomic, strong) PXGlobalContext * _Nullable globalContext;
+@property (nonatomic, strong) AnalyticsConfigurations * _Null_unspecified analyticsConfigurations;
+@property (nonatomic, strong) GlobalContext * _Nullable globalContext;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GainsightPX * _Nonnull shared;)
 + (GainsightPX * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-- (void)initialiseWithConfigurations:(PXAnalyticsConfigurations * _Nonnull)configurations completionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))completionBlock;
+- (void)initialiseWithConfigurations:(AnalyticsConfigurations * _Nonnull)configurations completionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))completionBlock;
 + (GainsightPX * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("Use GainsightPX.shared instead");
 + (void)debugLogsWithEnable:(BOOL)enable;
 - (void)customWithEvent:(NSString * _Nonnull)event errorCompletionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))errorCompletionBlock;
@@ -332,7 +332,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GainsightPX 
 - (void)screenWithTitle:(NSString * _Nonnull)title properties:(NSDictionary<NSString *, id> * _Nullable)properties errorCompletionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))errorCompletionBlock;
 - (void)screenWithScreen:(ScreenEvent * _Nonnull)screen properties:(NSDictionary<NSString *, id> * _Nullable)properties errorCompletionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))errorCompletionBlock;
 - (void)identifyWithUserId:(NSString * _Nonnull)userId errorCompletionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))errorCompletionBlock;
-- (void)identifyWithUser:(PXUser * _Nonnull)user errorCompletionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))errorCompletionBlock;
+- (void)identifyWithUser:(User * _Nonnull)user errorCompletionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))errorCompletionBlock;
 /// GlobalContext
 /// since:
 /// 0.10.1
@@ -354,7 +354,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GainsightPX 
 /// </ul>
 /// \param context context object, if the context is nil it will clear the complete the data
 ///
-- (void)globalContextWithContext:(PXGlobalContext * _Nullable)context;
+- (void)globalContextWithContext:(GlobalContext * _Nullable)context;
 - (void)flushWithErrorCompletionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))errorCompletionBlock;
 + (void)enable;
 + (void)disable;
@@ -387,17 +387,17 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GainsightPX 
 
 
 @interface GainsightPX (SWIFT_EXTENSION(PXKit))
-- (void)identifyWithUser:(PXUser * _Nonnull)user account:(PXAccount * _Nullable)account errorCompletionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))errorCompletionBlock;
+- (void)identifyWithUser:(User * _Nonnull)user account:(Account * _Nullable)account errorCompletionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))errorCompletionBlock;
 @end
 
 
-SWIFT_CLASS_NAMED("GlobalContext")
-@interface PXGlobalContext : NSObject
-- (PXGlobalContext * _Nonnull)setStringWithKey:(NSString * _Nonnull)key value:(NSString * _Nonnull)value SWIFT_WARN_UNUSED_RESULT;
-- (PXGlobalContext * _Nonnull)setDoubleWithKey:(NSString * _Nonnull)key value:(double)value SWIFT_WARN_UNUSED_RESULT;
-- (PXGlobalContext * _Nonnull)setBooleanWithKey:(NSString * _Nonnull)key value:(BOOL)value SWIFT_WARN_UNUSED_RESULT;
-- (PXGlobalContext * _Nonnull)setDateWithKey:(NSString * _Nonnull)key value:(NSDate * _Nonnull)value SWIFT_WARN_UNUSED_RESULT;
-- (PXGlobalContext * _Nonnull)setDateWithKey:(NSString * _Nonnull)key iso:(NSString * _Nonnull)iso SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS("_TtC5PXKit13GlobalContext")
+@interface GlobalContext : NSObject
+- (GlobalContext * _Nonnull)setStringWithKey:(NSString * _Nonnull)key value:(NSString * _Nonnull)value SWIFT_WARN_UNUSED_RESULT;
+- (GlobalContext * _Nonnull)setDoubleWithKey:(NSString * _Nonnull)key value:(double)value SWIFT_WARN_UNUSED_RESULT;
+- (GlobalContext * _Nonnull)setBooleanWithKey:(NSString * _Nonnull)key value:(BOOL)value SWIFT_WARN_UNUSED_RESULT;
+- (GlobalContext * _Nonnull)setDateWithKey:(NSString * _Nonnull)key value:(NSDate * _Nonnull)value SWIFT_WARN_UNUSED_RESULT;
+- (GlobalContext * _Nonnull)setDateWithKey:(NSString * _Nonnull)key iso:(NSString * _Nonnull)iso SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)hasKeyWithKey:(NSString * _Nonnull)key SWIFT_WARN_UNUSED_RESULT;
 - (void)removeKeysWithKeys:(NSArray<NSString *> * _Nonnull)keys;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -717,8 +717,8 @@ SWIFT_PROTOCOL("_TtP5PXKit17UIMapperConsuming_")
 
 
 
-SWIFT_CLASS_NAMED("User")
-@interface PXUser : NSObject
+SWIFT_CLASS("_TtC5PXKit4User")
+@interface User : NSObject
 @property (nonatomic, copy) NSString * _Nonnull ide;
 @property (nonatomic, copy) NSString * _Nullable email;
 @property (nonatomic, copy) NSString * _Nullable userHash;
@@ -979,8 +979,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 @class NSNumber;
 
-SWIFT_CLASS_NAMED("Account")
-@interface PXAccount : NSObject
+SWIFT_CLASS("_TtC5PXKit7Account")
+@interface Account : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull id;
 @property (nonatomic, copy) NSString * _Nullable name;
 @property (nonatomic, copy) NSString * _Nullable trackedSubscriptionId;
@@ -1010,17 +1010,17 @@ SWIFT_CLASS_NAMED("Account")
 @end
 
 @protocol GPXCrypto;
-@class PXConnection;
+@class Connection;
 @class UIApplication;
 @class UIWindow;
 
-SWIFT_CLASS_NAMED("AnalyticsConfigurations")
-@interface PXAnalyticsConfigurations : NSObject
+SWIFT_CLASS("_TtC5PXKit23AnalyticsConfigurations")
+@interface AnalyticsConfigurations : NSObject
 /// apiKey for GPX engine
 @property (nonatomic, copy) NSString * _Nonnull apiKey;
 /// Encrypt and decrypt protocol which writes encrypted data to the file with your own encryption/decryption algorithm
 @property (nonatomic, strong) id <GPXCrypto> _Nullable crypto;
-@property (nonatomic, strong) PXConnection * _Nonnull connection;
+@property (nonatomic, strong) Connection * _Nonnull connection;
 /// flushQueue size of the events, default is 30
 /// precondition:
 /// must be greater than 20
@@ -1065,8 +1065,8 @@ SWIFT_CLASS_NAMED("AnalyticsConfigurations")
 
 enum PXHost : NSInteger;
 
-SWIFT_CLASS_NAMED("Connection")
-@interface PXConnection : NSObject
+SWIFT_CLASS("_TtC5PXKit10Connection")
+@interface Connection : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull host;
 @property (nonatomic) NSTimeInterval timeoutIntervalForRequest;
 @property (nonatomic) NSTimeInterval timeoutIntervalForResource;
@@ -1079,18 +1079,18 @@ SWIFT_CLASS_NAMED("Connection")
 
 
 @protocol UIMapperConsuming;
-@class PXGlobalContext;
+@class GlobalContext;
 @class ScreenEvent;
-@class PXUser;
+@class User;
 
 SWIFT_CLASS("_TtC5PXKit11GainsightPX")
 @interface GainsightPX : NSObject
 @property (nonatomic, weak) id <UIMapperConsuming> _Nullable uiMapperConsumer;
-@property (nonatomic, strong) PXAnalyticsConfigurations * _Null_unspecified analyticsConfigurations;
-@property (nonatomic, strong) PXGlobalContext * _Nullable globalContext;
+@property (nonatomic, strong) AnalyticsConfigurations * _Null_unspecified analyticsConfigurations;
+@property (nonatomic, strong) GlobalContext * _Nullable globalContext;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GainsightPX * _Nonnull shared;)
 + (GainsightPX * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-- (void)initialiseWithConfigurations:(PXAnalyticsConfigurations * _Nonnull)configurations completionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))completionBlock;
+- (void)initialiseWithConfigurations:(AnalyticsConfigurations * _Nonnull)configurations completionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))completionBlock;
 + (GainsightPX * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("Use GainsightPX.shared instead");
 + (void)debugLogsWithEnable:(BOOL)enable;
 - (void)customWithEvent:(NSString * _Nonnull)event errorCompletionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))errorCompletionBlock;
@@ -1099,7 +1099,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GainsightPX 
 - (void)screenWithTitle:(NSString * _Nonnull)title properties:(NSDictionary<NSString *, id> * _Nullable)properties errorCompletionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))errorCompletionBlock;
 - (void)screenWithScreen:(ScreenEvent * _Nonnull)screen properties:(NSDictionary<NSString *, id> * _Nullable)properties errorCompletionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))errorCompletionBlock;
 - (void)identifyWithUserId:(NSString * _Nonnull)userId errorCompletionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))errorCompletionBlock;
-- (void)identifyWithUser:(PXUser * _Nonnull)user errorCompletionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))errorCompletionBlock;
+- (void)identifyWithUser:(User * _Nonnull)user errorCompletionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))errorCompletionBlock;
 /// GlobalContext
 /// since:
 /// 0.10.1
@@ -1121,7 +1121,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GainsightPX 
 /// </ul>
 /// \param context context object, if the context is nil it will clear the complete the data
 ///
-- (void)globalContextWithContext:(PXGlobalContext * _Nullable)context;
+- (void)globalContextWithContext:(GlobalContext * _Nullable)context;
 - (void)flushWithErrorCompletionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))errorCompletionBlock;
 + (void)enable;
 + (void)disable;
@@ -1154,17 +1154,17 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GainsightPX 
 
 
 @interface GainsightPX (SWIFT_EXTENSION(PXKit))
-- (void)identifyWithUser:(PXUser * _Nonnull)user account:(PXAccount * _Nullable)account errorCompletionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))errorCompletionBlock;
+- (void)identifyWithUser:(User * _Nonnull)user account:(Account * _Nullable)account errorCompletionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))errorCompletionBlock;
 @end
 
 
-SWIFT_CLASS_NAMED("GlobalContext")
-@interface PXGlobalContext : NSObject
-- (PXGlobalContext * _Nonnull)setStringWithKey:(NSString * _Nonnull)key value:(NSString * _Nonnull)value SWIFT_WARN_UNUSED_RESULT;
-- (PXGlobalContext * _Nonnull)setDoubleWithKey:(NSString * _Nonnull)key value:(double)value SWIFT_WARN_UNUSED_RESULT;
-- (PXGlobalContext * _Nonnull)setBooleanWithKey:(NSString * _Nonnull)key value:(BOOL)value SWIFT_WARN_UNUSED_RESULT;
-- (PXGlobalContext * _Nonnull)setDateWithKey:(NSString * _Nonnull)key value:(NSDate * _Nonnull)value SWIFT_WARN_UNUSED_RESULT;
-- (PXGlobalContext * _Nonnull)setDateWithKey:(NSString * _Nonnull)key iso:(NSString * _Nonnull)iso SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS("_TtC5PXKit13GlobalContext")
+@interface GlobalContext : NSObject
+- (GlobalContext * _Nonnull)setStringWithKey:(NSString * _Nonnull)key value:(NSString * _Nonnull)value SWIFT_WARN_UNUSED_RESULT;
+- (GlobalContext * _Nonnull)setDoubleWithKey:(NSString * _Nonnull)key value:(double)value SWIFT_WARN_UNUSED_RESULT;
+- (GlobalContext * _Nonnull)setBooleanWithKey:(NSString * _Nonnull)key value:(BOOL)value SWIFT_WARN_UNUSED_RESULT;
+- (GlobalContext * _Nonnull)setDateWithKey:(NSString * _Nonnull)key value:(NSDate * _Nonnull)value SWIFT_WARN_UNUSED_RESULT;
+- (GlobalContext * _Nonnull)setDateWithKey:(NSString * _Nonnull)key iso:(NSString * _Nonnull)iso SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)hasKeyWithKey:(NSString * _Nonnull)key SWIFT_WARN_UNUSED_RESULT;
 - (void)removeKeysWithKeys:(NSArray<NSString *> * _Nonnull)keys;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -1484,8 +1484,8 @@ SWIFT_PROTOCOL("_TtP5PXKit17UIMapperConsuming_")
 
 
 
-SWIFT_CLASS_NAMED("User")
-@interface PXUser : NSObject
+SWIFT_CLASS("_TtC5PXKit4User")
+@interface User : NSObject
 @property (nonatomic, copy) NSString * _Nonnull ide;
 @property (nonatomic, copy) NSString * _Nullable email;
 @property (nonatomic, copy) NSString * _Nullable userHash;
