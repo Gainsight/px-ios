@@ -662,6 +662,7 @@ extension UIImageView {
   @objc public var analyticsConfigurations: PXKit.AnalyticsConfigurations!
   @objc public var globalContext: PXKit.GlobalContext?
   @objc public static let shared: PXKit.GainsightPX
+  @objc public func initialise(configurations: PXKit.AnalyticsConfigurations, completionBlock: PXKit.GainsightPXErrorBlock?, callback: PXKit.PXEngagementCallBack?)
   @objc public func initialise(configurations: PXKit.AnalyticsConfigurations, completionBlock: PXKit.GainsightPXErrorBlock? = nil)
   @available(*, deprecated, message: "Use GainsightPX.shared instead")
   @objc public class func sharedInstance() -> PXKit.GainsightPX
@@ -1083,6 +1084,19 @@ extension FileManager {
 }
 extension URL {
   public func isContained(in parentDirectoryURL: Foundation.URL) -> Swift.Bool
+}
+public typealias PXEngagementCallBack = (PXKit.EngagementCallBackModel?, Swift.Error?) -> Swift.Bool
+@objc(PXEngagementCallBackModel) public class EngagementCallBackModel : ObjectiveC.NSObject {
+  @objc final public let actionText: Swift.String
+  @objc final public let actionData: Swift.String
+  @objc final public let actionsType: Swift.String
+  @objc final public let engagementName: Swift.String
+  @objc final public let scope: PXKit.ScreenEvent?
+  @objc final public let engagementId: Swift.String
+  @objc final public let params: [Swift.String : Any]
+  @objc public func toJSON() -> [Swift.String : Any]?
+  @objc override dynamic public init()
+  @objc deinit
 }
 public enum Result<Value> {
   case success(Value)
