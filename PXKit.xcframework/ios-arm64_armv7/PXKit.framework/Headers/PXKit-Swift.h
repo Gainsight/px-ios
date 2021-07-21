@@ -309,11 +309,26 @@ SWIFT_CLASS_NAMED("Connection")
 @end
 
 
+@class ScreenEvent;
+
+SWIFT_CLASS_NAMED("EngagementCallBackModel")
+@interface PXEngagementCallBackModel : NSObject
+@property (nonatomic, readonly, copy) NSString * _Nonnull actionText;
+@property (nonatomic, readonly, copy) NSString * _Nonnull actionData;
+@property (nonatomic, readonly, copy) NSString * _Nonnull actionsType;
+@property (nonatomic, readonly, copy) NSString * _Nonnull engagementName;
+@property (nonatomic, readonly, strong) ScreenEvent * _Nullable scope;
+@property (nonatomic, readonly, copy) NSString * _Nonnull engagementId;
+@property (nonatomic, readonly, copy) NSDictionary<NSString *, id> * _Nonnull params;
+- (NSDictionary<NSString *, id> * _Nullable)toJSON SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 
 
 @protocol UIMapperConsuming;
 @class PXGlobalContext;
-@class ScreenEvent;
 @class PXUser;
 
 SWIFT_CLASS("_TtC5PXKit11GainsightPX")
@@ -323,6 +338,7 @@ SWIFT_CLASS("_TtC5PXKit11GainsightPX")
 @property (nonatomic, strong) PXGlobalContext * _Nullable globalContext;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GainsightPX * _Nonnull shared;)
 + (GainsightPX * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (void)initialiseWithConfigurations:(PXAnalyticsConfigurations * _Nonnull)configurations completionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))completionBlock callback:(BOOL (^ _Nullable)(PXEngagementCallBackModel * _Nullable, NSError * _Nullable))callback;
 - (void)initialiseWithConfigurations:(PXAnalyticsConfigurations * _Nonnull)configurations completionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))completionBlock;
 + (GainsightPX * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("Use GainsightPX.shared instead");
 + (void)debugLogsWithEnable:(BOOL)enable;
@@ -1076,11 +1092,26 @@ SWIFT_CLASS_NAMED("Connection")
 @end
 
 
+@class ScreenEvent;
+
+SWIFT_CLASS_NAMED("EngagementCallBackModel")
+@interface PXEngagementCallBackModel : NSObject
+@property (nonatomic, readonly, copy) NSString * _Nonnull actionText;
+@property (nonatomic, readonly, copy) NSString * _Nonnull actionData;
+@property (nonatomic, readonly, copy) NSString * _Nonnull actionsType;
+@property (nonatomic, readonly, copy) NSString * _Nonnull engagementName;
+@property (nonatomic, readonly, strong) ScreenEvent * _Nullable scope;
+@property (nonatomic, readonly, copy) NSString * _Nonnull engagementId;
+@property (nonatomic, readonly, copy) NSDictionary<NSString *, id> * _Nonnull params;
+- (NSDictionary<NSString *, id> * _Nullable)toJSON SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 
 
 @protocol UIMapperConsuming;
 @class PXGlobalContext;
-@class ScreenEvent;
 @class PXUser;
 
 SWIFT_CLASS("_TtC5PXKit11GainsightPX")
@@ -1090,6 +1121,7 @@ SWIFT_CLASS("_TtC5PXKit11GainsightPX")
 @property (nonatomic, strong) PXGlobalContext * _Nullable globalContext;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GainsightPX * _Nonnull shared;)
 + (GainsightPX * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (void)initialiseWithConfigurations:(PXAnalyticsConfigurations * _Nonnull)configurations completionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))completionBlock callback:(BOOL (^ _Nullable)(PXEngagementCallBackModel * _Nullable, NSError * _Nullable))callback;
 - (void)initialiseWithConfigurations:(PXAnalyticsConfigurations * _Nonnull)configurations completionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))completionBlock;
 + (GainsightPX * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("Use GainsightPX.shared instead");
 + (void)debugLogsWithEnable:(BOOL)enable;
