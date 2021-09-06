@@ -288,6 +288,13 @@ SWIFT_CLASS_NAMED("AnalyticsConfigurations")
 ///   </li>
 /// </ul>
 @property (nonatomic) BOOL shouldTrackTapEvents;
+/// This will start logging errors to server
+/// <ul>
+///   <li>
+///     default: <code>false</code>
+///   </li>
+/// </ul>
+@property (nonatomic) BOOL reportTrackingIssues;
 /// This will disable whole SDK where no events will be created including ScreenViews, default true
 @property (nonatomic) BOOL enabled;
 - (nonnull instancetype)initWithApiKey:(NSString * _Nonnull)apiKey OBJC_DESIGNATED_INITIALIZER;
@@ -381,6 +388,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GainsightPX 
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 
@@ -1071,6 +1079,13 @@ SWIFT_CLASS_NAMED("AnalyticsConfigurations")
 ///   </li>
 /// </ul>
 @property (nonatomic) BOOL shouldTrackTapEvents;
+/// This will start logging errors to server
+/// <ul>
+///   <li>
+///     default: <code>false</code>
+///   </li>
+/// </ul>
+@property (nonatomic) BOOL reportTrackingIssues;
 /// This will disable whole SDK where no events will be created including ScreenViews, default true
 @property (nonatomic) BOOL enabled;
 - (nonnull instancetype)initWithApiKey:(NSString * _Nonnull)apiKey OBJC_DESIGNATED_INITIALIZER;
@@ -1164,6 +1179,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GainsightPX 
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 
@@ -1854,6 +1870,13 @@ SWIFT_CLASS_NAMED("AnalyticsConfigurations")
 ///   </li>
 /// </ul>
 @property (nonatomic) BOOL shouldTrackTapEvents;
+/// This will start logging errors to server
+/// <ul>
+///   <li>
+///     default: <code>false</code>
+///   </li>
+/// </ul>
+@property (nonatomic) BOOL reportTrackingIssues;
 /// This will disable whole SDK where no events will be created including ScreenViews, default true
 @property (nonatomic) BOOL enabled;
 - (nonnull instancetype)initWithApiKey:(NSString * _Nonnull)apiKey OBJC_DESIGNATED_INITIALIZER;
@@ -1947,6 +1970,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GainsightPX 
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 

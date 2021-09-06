@@ -6,11 +6,11 @@
 	<dict>
 		<key>GPXAlert.storyboardc/Dhr-sX-pCE-view-vrM-qW-A3F.nib/objects-11.0+.nib</key>
 		<data>
-		fmxpoO5SIhwmGOycr4WzLZ47Tbw=
+		++rrUVvb2v7I0PPaUozzI0IZuYw=
 		</data>
 		<key>GPXAlert.storyboardc/Dhr-sX-pCE-view-vrM-qW-A3F.nib/runtime.nib</key>
 		<data>
-		y66/y3qOJu36nSsts3srgCTY5PA=
+		r3VYcsuLJbuWGkjXpxdFKrwDyJQ=
 		</data>
 		<key>GPXAlert.storyboardc/Info.plist</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>GPXAlert.storyboardc/UIViewController-Dhr-sX-pCE.nib/objects-11.0+.nib</key>
 		<data>
-		IYeUAwGd0ptV5n/ZyLbdPUCEwzU=
+		F2eFt5RepW7mYMpf38UNBgxsw0c=
 		</data>
 		<key>GPXAlert.storyboardc/UIViewController-Dhr-sX-pCE.nib/runtime.nib</key>
 		<data>
-		sKK4BAgJQOwusGrxfZAneci3tKQ=
+		o3a77Khd5yoqwOaQcAWhWLRSrB8=
 		</data>
 		<key>GPXWebView.storyboardc/Info.plist</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>GPXWebView.storyboardc/Pei-2Y-KLP-view-hjS-ud-QKb.nib</key>
 		<data>
-		b1OZxZ9+Vx2+9/cZqAvSRvg65xI=
+		xNrvjCbgOBRANPdoODmLGKQAk94=
 		</data>
 		<key>GPXWebView.storyboardc/UIViewController-Pei-2Y-KLP.nib</key>
 		<data>
-		/58+xKGWQYqMBsm9Qauzzyv6ic4=
+		I1vbqEBYv3eikbuepeCaE9fUBvg=
 		</data>
 		<key>Headers/GPXAnalytics.h</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Headers/PXKit-Swift.h</key>
 		<data>
-		VqeNMK0ikCcJsMfwaLTEOkZo/Y8=
+		fkXs1Uv4ohhoqOM1WbV0LBqtvhE=
 		</data>
 		<key>Headers/PXKit.h</key>
 		<data>
@@ -62,79 +62,79 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		cjdvPXfUMRMYQNOJsPOclJn7VdM=
+		vLN4UFvXlhyKelB5kl/TMinqn0w=
 		</data>
 		<key>Modules/PXKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		wildAIohngOZ++hfxs/z9Nv+A8A=
+		SaCpjU2Bjd5EXc4exh1GVoDwbW0=
 		</data>
 		<key>Modules/PXKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		S/IcMsdG83VQSd8UvIaiN72Jk0c=
+		f8JIHwREoIDoXog0svgZUibyNAw=
 		</data>
 		<key>Modules/PXKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zbBqqfA9l3vYyHRvL5bjnS5Otds=
+		7nVXg+DqhMSKUaLhn1mDkxXyGvs=
 		</data>
 		<key>Modules/PXKit.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		wildAIohngOZ++hfxs/z9Nv+A8A=
+		SaCpjU2Bjd5EXc4exh1GVoDwbW0=
 		</data>
 		<key>Modules/PXKit.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		S/IcMsdG83VQSd8UvIaiN72Jk0c=
+		f8JIHwREoIDoXog0svgZUibyNAw=
 		</data>
 		<key>Modules/PXKit.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		zbBqqfA9l3vYyHRvL5bjnS5Otds=
+		7nVXg+DqhMSKUaLhn1mDkxXyGvs=
 		</data>
 		<key>Modules/PXKit.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		BDpAXYtI7YEy6A8A2x4AAKDhl2c=
+		oJNEbHPSMHlutHo4NieGUiMS9xo=
 		</data>
 		<key>Modules/PXKit.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		BFAHCoFGRzNVO/FSEZMFsmbIN6o=
+		M06BsqgQnzwdsLGgu2ekZJGZvdA=
 		</data>
 		<key>Modules/PXKit.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dQsf1EjenD7n2EVfMFC+Rb3mEQY=
+		bOOLMUQ+x1ZGiHD2oi98SK9p8Ls=
 		</data>
 		<key>Modules/PXKit.swiftmodule/i386.swiftdoc</key>
 		<data>
-		BDpAXYtI7YEy6A8A2x4AAKDhl2c=
+		oJNEbHPSMHlutHo4NieGUiMS9xo=
 		</data>
 		<key>Modules/PXKit.swiftmodule/i386.swiftinterface</key>
 		<data>
-		BFAHCoFGRzNVO/FSEZMFsmbIN6o=
+		M06BsqgQnzwdsLGgu2ekZJGZvdA=
 		</data>
 		<key>Modules/PXKit.swiftmodule/i386.swiftmodule</key>
 		<data>
-		dQsf1EjenD7n2EVfMFC+Rb3mEQY=
+		bOOLMUQ+x1ZGiHD2oi98SK9p8Ls=
 		</data>
 		<key>Modules/PXKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		JTB2kNN0l54Q2+zXgE0gVaf+IDA=
+		bDYPTprmuojheMKrt5ZAD0uBtVw=
 		</data>
 		<key>Modules/PXKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bJESki9bdkJFZYaLTigQ/sHHUmc=
+		rBroXXelhEs1ERiyIB7KwDgZcRE=
 		</data>
 		<key>Modules/PXKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MB0Us+7rMymnNUs58sADG8oex2k=
+		Whp9aQct9bvdLny6X3+hRY9eswQ=
 		</data>
 		<key>Modules/PXKit.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		JTB2kNN0l54Q2+zXgE0gVaf+IDA=
+		bDYPTprmuojheMKrt5ZAD0uBtVw=
 		</data>
 		<key>Modules/PXKit.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		bJESki9bdkJFZYaLTigQ/sHHUmc=
+		rBroXXelhEs1ERiyIB7KwDgZcRE=
 		</data>
 		<key>Modules/PXKit.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		MB0Us+7rMymnNUs58sADG8oex2k=
+		Whp9aQct9bvdLny6X3+hRY9eswQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -146,11 +146,11 @@
 		</data>
 		<key>WebEditor.storyboardc/Pei-2Y-KLP-view-hjS-ud-QKb.nib</key>
 		<data>
-		N32QUi0hmIMqef+WprN2/iBCCFw=
+		dq6JbuBCzpg0GC/74uiYvC+MEwM=
 		</data>
 		<key>WebEditor.storyboardc/WebEditorViewController.nib</key>
 		<data>
-		iWw1faDwunby4t7R/UE6yQET3nU=
+		/lfLWvIWAABagzQVR/ySpkUJQ3Q=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -159,22 +159,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fmxpoO5SIhwmGOycr4WzLZ47Tbw=
+			++rrUVvb2v7I0PPaUozzI0IZuYw=
 			</data>
 			<key>hash2</key>
 			<data>
-			sv7CIaqa3IkUGD+P84BZhN0egcwKscYV5V8lUWGIwOI=
+			OZY/gl97I8OM8pMjepp/plvpOP4dq+Ya1M48NlXb/zQ=
 			</data>
 		</dict>
 		<key>GPXAlert.storyboardc/Dhr-sX-pCE-view-vrM-qW-A3F.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			y66/y3qOJu36nSsts3srgCTY5PA=
+			r3VYcsuLJbuWGkjXpxdFKrwDyJQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			pwrgN4Mt+PdzN7K1Zaxu2m2WiWlE9nO4IDOS5H9mvOw=
+			YiJOie0Z+1ACvT6cqqHNq7RD7/UBJvugOeiN+AQbFNc=
 			</data>
 		</dict>
 		<key>GPXAlert.storyboardc/Info.plist</key>
@@ -192,22 +192,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IYeUAwGd0ptV5n/ZyLbdPUCEwzU=
+			F2eFt5RepW7mYMpf38UNBgxsw0c=
 			</data>
 			<key>hash2</key>
 			<data>
-			v3Fc9Q9qgebq5FYlS+KWxLmc2OKZPLAS/w2Eap25+zk=
+			J1Ys7qcOQ/uh6q8KXG3nINFU6wTfqrtALk+YNU1GMdM=
 			</data>
 		</dict>
 		<key>GPXAlert.storyboardc/UIViewController-Dhr-sX-pCE.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sKK4BAgJQOwusGrxfZAneci3tKQ=
+			o3a77Khd5yoqwOaQcAWhWLRSrB8=
 			</data>
 			<key>hash2</key>
 			<data>
-			BkRmf9HZvuJI0BPTTMWibTAPK9bCqJwVM+fa85XO2HQ=
+			987vSNBBEKlZfhDQmP46JILpHG4PMc866VmTdeQDebc=
 			</data>
 		</dict>
 		<key>GPXWebView.storyboardc/Info.plist</key>
@@ -225,22 +225,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			b1OZxZ9+Vx2+9/cZqAvSRvg65xI=
+			xNrvjCbgOBRANPdoODmLGKQAk94=
 			</data>
 			<key>hash2</key>
 			<data>
-			EGc3CrJuUfZFnAD+xYKrjnJrRt3n3japOu7ypDzXqvE=
+			Pta4GGyZ0AY4dM4rk4YHm1RUJPGsRZVBANi+207SQKk=
 			</data>
 		</dict>
 		<key>GPXWebView.storyboardc/UIViewController-Pei-2Y-KLP.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/58+xKGWQYqMBsm9Qauzzyv6ic4=
+			I1vbqEBYv3eikbuepeCaE9fUBvg=
 			</data>
 			<key>hash2</key>
 			<data>
-			p7CREc4z+krRLqW+7ZSZKq3o58o1WEy7CmArZ5ItQ7c=
+			m0jr9MZVLxtp0XQik/mi4J6Kbs+qnhCji9FckLlXNnU=
 			</data>
 		</dict>
 		<key>Headers/GPXAnalytics.h</key>
@@ -291,11 +291,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VqeNMK0ikCcJsMfwaLTEOkZo/Y8=
+			fkXs1Uv4ohhoqOM1WbV0LBqtvhE=
 			</data>
 			<key>hash2</key>
 			<data>
-			zqg4A6KCroGGO2K487VaSrC/oWN8rhz/W5djCpEiK64=
+			WRPNFS+tl+T/GQlfqchXSApvkaJb/OctgJUx2mPb70s=
 			</data>
 		</dict>
 		<key>Headers/PXKit.h</key>
@@ -313,198 +313,198 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wildAIohngOZ++hfxs/z9Nv+A8A=
+			SaCpjU2Bjd5EXc4exh1GVoDwbW0=
 			</data>
 			<key>hash2</key>
 			<data>
-			RiCGhffxDSXehG5fc05Ei3tEtfr44zq5ERKNYUKMKcY=
+			O5LW/LQeavwaziC0VpLb57/Sf6V+7qyN0kClqmj2iU0=
 			</data>
 		</dict>
 		<key>Modules/PXKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			S/IcMsdG83VQSd8UvIaiN72Jk0c=
+			f8JIHwREoIDoXog0svgZUibyNAw=
 			</data>
 			<key>hash2</key>
 			<data>
-			WelHJInFGTq3rZSEP18M6Bt9z5c27ZPtRBSONmu5Fx8=
+			p/O0xj37vYVK2dh1wKMLFWzQqnDK3GSkowgonDuy3YU=
 			</data>
 		</dict>
 		<key>Modules/PXKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zbBqqfA9l3vYyHRvL5bjnS5Otds=
+			7nVXg+DqhMSKUaLhn1mDkxXyGvs=
 			</data>
 			<key>hash2</key>
 			<data>
-			vr3ETh1GWvSq4IMtdlyLm3n2eSjq4inXfSb6E9QHJgI=
+			Hj/XQdmHiXpIPaEd/h3A3Ta7go6E0sG/3X2FCU7nZkA=
 			</data>
 		</dict>
 		<key>Modules/PXKit.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wildAIohngOZ++hfxs/z9Nv+A8A=
+			SaCpjU2Bjd5EXc4exh1GVoDwbW0=
 			</data>
 			<key>hash2</key>
 			<data>
-			RiCGhffxDSXehG5fc05Ei3tEtfr44zq5ERKNYUKMKcY=
+			O5LW/LQeavwaziC0VpLb57/Sf6V+7qyN0kClqmj2iU0=
 			</data>
 		</dict>
 		<key>Modules/PXKit.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			S/IcMsdG83VQSd8UvIaiN72Jk0c=
+			f8JIHwREoIDoXog0svgZUibyNAw=
 			</data>
 			<key>hash2</key>
 			<data>
-			WelHJInFGTq3rZSEP18M6Bt9z5c27ZPtRBSONmu5Fx8=
+			p/O0xj37vYVK2dh1wKMLFWzQqnDK3GSkowgonDuy3YU=
 			</data>
 		</dict>
 		<key>Modules/PXKit.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zbBqqfA9l3vYyHRvL5bjnS5Otds=
+			7nVXg+DqhMSKUaLhn1mDkxXyGvs=
 			</data>
 			<key>hash2</key>
 			<data>
-			vr3ETh1GWvSq4IMtdlyLm3n2eSjq4inXfSb6E9QHJgI=
+			Hj/XQdmHiXpIPaEd/h3A3Ta7go6E0sG/3X2FCU7nZkA=
 			</data>
 		</dict>
 		<key>Modules/PXKit.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BDpAXYtI7YEy6A8A2x4AAKDhl2c=
+			oJNEbHPSMHlutHo4NieGUiMS9xo=
 			</data>
 			<key>hash2</key>
 			<data>
-			JPWGO9IoYsAsRBCjDPsskPKIH1oYilHSJwFQ7CHOkgg=
+			p6jzQdcZC3VIAJYmxaIIIqFEH0MsXEBqqqQXbSNLAbA=
 			</data>
 		</dict>
 		<key>Modules/PXKit.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BFAHCoFGRzNVO/FSEZMFsmbIN6o=
+			M06BsqgQnzwdsLGgu2ekZJGZvdA=
 			</data>
 			<key>hash2</key>
 			<data>
-			VIhMcpy3HoM3h6GK7x3TBne4dl+T0KszUdFY6Lgxh+w=
+			Mt0eemvY20bmJK/67Un20JehXNtsmoB2yzVmoBNzdEg=
 			</data>
 		</dict>
 		<key>Modules/PXKit.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dQsf1EjenD7n2EVfMFC+Rb3mEQY=
+			bOOLMUQ+x1ZGiHD2oi98SK9p8Ls=
 			</data>
 			<key>hash2</key>
 			<data>
-			7Dm6+BCMkDSBkWGamEA+ElzZQhFtp2WQvAQb0mtibag=
+			i1j6PjB9Vro3FsnZBkxA99j9rsuvfGIExNVQ1fh0y50=
 			</data>
 		</dict>
 		<key>Modules/PXKit.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BDpAXYtI7YEy6A8A2x4AAKDhl2c=
+			oJNEbHPSMHlutHo4NieGUiMS9xo=
 			</data>
 			<key>hash2</key>
 			<data>
-			JPWGO9IoYsAsRBCjDPsskPKIH1oYilHSJwFQ7CHOkgg=
+			p6jzQdcZC3VIAJYmxaIIIqFEH0MsXEBqqqQXbSNLAbA=
 			</data>
 		</dict>
 		<key>Modules/PXKit.swiftmodule/i386.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BFAHCoFGRzNVO/FSEZMFsmbIN6o=
+			M06BsqgQnzwdsLGgu2ekZJGZvdA=
 			</data>
 			<key>hash2</key>
 			<data>
-			VIhMcpy3HoM3h6GK7x3TBne4dl+T0KszUdFY6Lgxh+w=
+			Mt0eemvY20bmJK/67Un20JehXNtsmoB2yzVmoBNzdEg=
 			</data>
 		</dict>
 		<key>Modules/PXKit.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dQsf1EjenD7n2EVfMFC+Rb3mEQY=
+			bOOLMUQ+x1ZGiHD2oi98SK9p8Ls=
 			</data>
 			<key>hash2</key>
 			<data>
-			7Dm6+BCMkDSBkWGamEA+ElzZQhFtp2WQvAQb0mtibag=
+			i1j6PjB9Vro3FsnZBkxA99j9rsuvfGIExNVQ1fh0y50=
 			</data>
 		</dict>
 		<key>Modules/PXKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JTB2kNN0l54Q2+zXgE0gVaf+IDA=
+			bDYPTprmuojheMKrt5ZAD0uBtVw=
 			</data>
 			<key>hash2</key>
 			<data>
-			s/UAYMK0vvVal1OO8j2UR7CZ+fDidOvG/gxyIgmcfWM=
+			PxBSQf1QZ9D+qBCWQvQo6UrAAvTKLEdNTp+coMwqhuY=
 			</data>
 		</dict>
 		<key>Modules/PXKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bJESki9bdkJFZYaLTigQ/sHHUmc=
+			rBroXXelhEs1ERiyIB7KwDgZcRE=
 			</data>
 			<key>hash2</key>
 			<data>
-			VwBFR5DJfT4wPGom1RBFuMoa3kApDKq7vFonH1Flh0c=
+			tqNx0kbATBOdIpvo9+HxyZpSoJyXcty3fqglNSlCwXQ=
 			</data>
 		</dict>
 		<key>Modules/PXKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MB0Us+7rMymnNUs58sADG8oex2k=
+			Whp9aQct9bvdLny6X3+hRY9eswQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			+fv+t77+rbF2nMIfhOcf7LoPaK2Le+5QN/Nl/+TO2q8=
+			bupQ/qbIW6PyQtNKlk6xXCuWSSsqOK8UsuxCvEB5G0w=
 			</data>
 		</dict>
 		<key>Modules/PXKit.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JTB2kNN0l54Q2+zXgE0gVaf+IDA=
+			bDYPTprmuojheMKrt5ZAD0uBtVw=
 			</data>
 			<key>hash2</key>
 			<data>
-			s/UAYMK0vvVal1OO8j2UR7CZ+fDidOvG/gxyIgmcfWM=
+			PxBSQf1QZ9D+qBCWQvQo6UrAAvTKLEdNTp+coMwqhuY=
 			</data>
 		</dict>
 		<key>Modules/PXKit.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bJESki9bdkJFZYaLTigQ/sHHUmc=
+			rBroXXelhEs1ERiyIB7KwDgZcRE=
 			</data>
 			<key>hash2</key>
 			<data>
-			VwBFR5DJfT4wPGom1RBFuMoa3kApDKq7vFonH1Flh0c=
+			tqNx0kbATBOdIpvo9+HxyZpSoJyXcty3fqglNSlCwXQ=
 			</data>
 		</dict>
 		<key>Modules/PXKit.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MB0Us+7rMymnNUs58sADG8oex2k=
+			Whp9aQct9bvdLny6X3+hRY9eswQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			+fv+t77+rbF2nMIfhOcf7LoPaK2Le+5QN/Nl/+TO2q8=
+			bupQ/qbIW6PyQtNKlk6xXCuWSSsqOK8UsuxCvEB5G0w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -533,22 +533,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			N32QUi0hmIMqef+WprN2/iBCCFw=
+			dq6JbuBCzpg0GC/74uiYvC+MEwM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Kvng1UlcXotcwKvHv4vKqIxZFdyhh1cigTTz4WV0PRs=
+			uWCOqM8lBonKXDKic6ygCiecdgoXBuBYwBgFiM+z9zM=
 			</data>
 		</dict>
 		<key>WebEditor.storyboardc/WebEditorViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iWw1faDwunby4t7R/UE6yQET3nU=
+			/lfLWvIWAABagzQVR/ySpkUJQ3Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			sxBEvGR/G9zxfaCipOIaAo4p9i6FqwMN/revINdkeHI=
+			PodlsBMzpezrXgOUnGGUjni+7cHSftWi4QqFzhO0KZ4=
 			</data>
 		</dict>
 	</dict>

@@ -1,6 +1,6 @@
 [![N|Solid](https://app-dev.aptrinsic.com/home/gainsight-px-logo.svg)](https://app.aptrinsic.com)
 
-![version](https://img.shields.io/badge/version-1.5.2-blue.svg)  ![coverage](https://img.shields.io/badge/coverage-81%25-yellowgreen) ![PXKit](https://github.com/aptrinsic/ios-sdk/workflows/GainsightPX%20Framework/badge.svg?branch=feature%2FAPP-14013_local_evn_setup)
+![version](https://img.shields.io/badge/version-1.6.0-blue.svg)  ![coverage](https://img.shields.io/badge/coverage-81%25-yellowgreen) ![PXKit](https://github.com/aptrinsic/ios-sdk/workflows/GainsightPX%20Framework/badge.svg?branch=feature%2FAPP-14013_local_evn_setup)
 
 # Installation
 
@@ -9,7 +9,13 @@ GainsighPX is available through CocoaPods.
 ### CocoaPods
 
 ```
-pod 'PXKit', :git => 'git@github.com:Gainsight/px-ios.git', tag: '1.5.2'
+pod 'PXKit', :git => 'git@github.com:Gainsight/px-ios.git', tag: '1.6.0'
+```
+
+> or
+
+```
+pod 'PXKit', :git => 'git@github.com:Gainsight/px-ios.git'
 ```
 
 # Documentation

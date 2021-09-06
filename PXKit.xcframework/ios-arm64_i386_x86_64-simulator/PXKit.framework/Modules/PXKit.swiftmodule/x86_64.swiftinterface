@@ -885,6 +885,7 @@ extension UIButton {
   @objc public var application: UIKit.UIApplication
   @objc public var currentWindow: UIKit.UIWindow?
   @objc public var shouldTrackTapEvents: Swift.Bool
+  @objc public var reportTrackingIssues: Swift.Bool
   @objc public var enabled: Swift.Bool
   @objc public init(apiKey: Swift.String)
   @objc deinit
