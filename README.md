@@ -9,7 +9,13 @@ GainsighPX is available through CocoaPods.
 ### CocoaPods
 
 ```
-pod 'PXKit', :git => 'git@github.com:Gainsight/px-ios.git', tag: '1.5.2'
+pod 'PXKit', :git => 'git@github.com:Gainsight/px-ios.git', tag: '1.6.0'
+```
+
+> or
+
+```
+pod 'PXKit', :git => 'git@github.com:Gainsight/px-ios.git'
 ```
 
 # Documentation
