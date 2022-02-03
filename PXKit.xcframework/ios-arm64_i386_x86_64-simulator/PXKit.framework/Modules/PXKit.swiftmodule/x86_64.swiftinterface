@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
 // swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PXKit
 import Compression
 import CoreFoundation
@@ -139,6 +139,7 @@ extension PXKit.DownloadRequest {
 public enum ConnectionMode {
   case us
   case eu
+  case us2
   case custom(host: Swift.String)
 }
 @objc(PXGlobalContext) public class GlobalContext : ObjectiveC.NSObject {
@@ -674,6 +675,7 @@ extension UIKit.UIImageView {
   @objc public func screen(screen: PXKit.ScreenEvent, properties: [Swift.String : Any]?, errorCompletionBlock: PXKit.GainsightPXErrorBlock? = nil)
   @objc public func identify(userId: Swift.String, errorCompletionBlock: PXKit.GainsightPXErrorBlock? = nil)
   @objc public func identify(user: PXKit.User, errorCompletionBlock: PXKit.GainsightPXErrorBlock? = nil)
+  @objc public func startJSBridge(webview: WebKit.WKWebView)
   @objc public func globalContext(context: PXKit.GlobalContext?)
   @objc public func flush(errorCompletionBlock: PXKit.GainsightPXErrorBlock? = nil)
   @objc public class func enable()
