@@ -675,6 +675,7 @@ extension UIKit.UIImageView {
   @objc public func screen(screen: PXKit.ScreenEvent, properties: [Swift.String : Any]?, errorCompletionBlock: PXKit.GainsightPXErrorBlock? = nil)
   @objc public func identify(userId: Swift.String, errorCompletionBlock: PXKit.GainsightPXErrorBlock? = nil)
   @objc public func identify(user: PXKit.User, errorCompletionBlock: PXKit.GainsightPXErrorBlock? = nil)
+  @objc public func setSupportedInterfaceOrientations(orientation: UIKit.UIInterfaceOrientationMask)
   @objc public func startJSBridge(webview: WebKit.WKWebView)
   @objc public func globalContext(context: PXKit.GlobalContext?)
   @objc public func flush(errorCompletionBlock: PXKit.GainsightPXErrorBlock? = nil)
