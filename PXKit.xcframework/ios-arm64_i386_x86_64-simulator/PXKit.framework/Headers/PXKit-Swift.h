@@ -456,6 +456,7 @@ SWIFT_CLASS_NAMED("GlobalContext")
 typedef SWIFT_ENUM(NSInteger, PXHost, open) {
   PXHostUs = 0,
   PXHostEu = 1,
+  PXHostUs2 = 2,
 };
 
 
@@ -1274,6 +1275,7 @@ SWIFT_CLASS_NAMED("GlobalContext")
 typedef SWIFT_ENUM(NSInteger, PXHost, open) {
   PXHostUs = 0,
   PXHostEu = 1,
+  PXHostUs2 = 2,
 };
 
 
@@ -2092,6 +2094,7 @@ SWIFT_CLASS_NAMED("GlobalContext")
 typedef SWIFT_ENUM(NSInteger, PXHost, open) {
   PXHostUs = 0,
   PXHostEu = 1,
+  PXHostUs2 = 2,
 };
 
 
