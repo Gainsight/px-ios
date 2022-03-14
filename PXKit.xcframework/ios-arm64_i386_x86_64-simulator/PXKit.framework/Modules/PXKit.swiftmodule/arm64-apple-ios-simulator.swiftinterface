@@ -136,11 +136,12 @@ extension PXKit.DownloadRequest {
   @discardableResult
   public func responsePropertyList(queue: Dispatch.DispatchQueue? = nil, options: Foundation.PropertyListSerialization.ReadOptions = [], completionHandler: @escaping (PXKit.DownloadResponse<Any>) -> Swift.Void) -> Self
 }
-public enum ConnectionMode {
+public enum ConnectionMode : Swift.Equatable {
   case us
   case eu
   case us2
   case custom(host: Swift.String)
+  public static func == (a: PXKit.ConnectionMode, b: PXKit.ConnectionMode) -> Swift.Bool
 }
 @objc(PXGlobalContext) public class GlobalContext : ObjectiveC.NSObject {
   @objc public func setString(key: Swift.String, value: Swift.String) -> PXKit.GlobalContext
@@ -1192,6 +1193,7 @@ open class SessionManager {
 @objc public enum PXHost : Swift.Int {
   case us
   case eu
+  case us2
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
