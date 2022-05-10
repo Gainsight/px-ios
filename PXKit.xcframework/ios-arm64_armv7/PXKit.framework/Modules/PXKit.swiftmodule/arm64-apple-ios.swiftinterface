@@ -660,7 +660,10 @@ extension UIKit.UIImageView {
   @objc deinit
 }
 @objc public class GainsightPX : ObjectiveC.NSObject {
-  @objc weak public var uiMapperConsumer: PXKit.UIMapperConsuming?
+  @objc weak public var uiMapperConsumer: PXKit.UIMapperConsuming? {
+    @objc get
+    @objc set
+  }
   @objc public var analyticsConfigurations: PXKit.AnalyticsConfigurations!
   @objc public var globalContext: PXKit.GlobalContext?
   @objc public static let shared: PXKit.GainsightPX
@@ -677,7 +680,10 @@ extension UIKit.UIImageView {
   @objc public func identify(userId: Swift.String, errorCompletionBlock: PXKit.GainsightPXErrorBlock? = nil)
   @objc public func identify(user: PXKit.User, errorCompletionBlock: PXKit.GainsightPXErrorBlock? = nil)
   @objc public func setSupportedInterfaceOrientations(orientation: UIKit.UIInterfaceOrientationMask)
+  @available(*, deprecated, message: "Use startTracking(webview:) instead.")
   @objc public func startJSBridge(webview: WebKit.WKWebView)
+  @objc public func startTracking(webview: WebKit.WKWebView?)
+  @objc public func stopTrackingWebView()
   @objc public func globalContext(context: PXKit.GlobalContext?)
   @objc public func flush(errorCompletionBlock: PXKit.GainsightPXErrorBlock? = nil)
   @objc public class func enable()
@@ -879,6 +885,7 @@ extension UIKit.UIButton {
   @objc public var crypto: PXKit.GPXCrypto?
   @objc public var connection: PXKit.Connection
   @objc public var flushQueueSize: Swift.Int
+  @objc public var maxQueueSize: Swift.Int
   @objc public var flushInterval: Swift.Double
   @objc public var trackApplicationLifecycleEvents: Swift.Bool
   @objc public var recordScreenViews: Swift.Bool
