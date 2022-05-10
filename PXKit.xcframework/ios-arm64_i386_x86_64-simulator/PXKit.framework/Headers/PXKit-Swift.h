@@ -261,6 +261,10 @@ SWIFT_CLASS_NAMED("AnalyticsConfigurations")
 /// precondition:
 /// must be greater than 20
 @property (nonatomic) NSInteger flushQueueSize;
+/// maxQueueSize size of the events, default is 1000
+/// precondition:
+/// must be greater than 100 and less than 2000
+@property (nonatomic) NSInteger maxQueueSize;
 /// dispatch time interval of the events, default 60
 /// precondition:
 /// must be greater than 30
@@ -362,6 +366,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GainsightPX 
 - (void)identifyWithUserId:(NSString * _Nonnull)userId errorCompletionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))errorCompletionBlock;
 - (void)identifyWithUser:(PXUser * _Nonnull)user errorCompletionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))errorCompletionBlock;
 - (void)setSupportedInterfaceOrientationsWithOrientation:(UIInterfaceOrientationMask)orientation;
+- (void)startJSBridgeWithWebview:(WKWebView * _Nonnull)webview SWIFT_DEPRECATED_MSG("Use startTracking(webview:) instead.");
 /// JSBridge
 /// Parameter webview: WKWebView instance of a hybrid application.
 /// Since: 1.7.0
@@ -375,7 +380,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GainsightPX 
 /// }
 ///
 /// \endcode
-- (void)startJSBridgeWithWebview:(WKWebView * _Nonnull)webview;
+- (void)startTrackingWithWebview:(WKWebView * _Nullable)webview;
+- (void)stopTrackingWebView;
 /// GlobalContext
 /// since:
 /// 0.10.1
@@ -755,6 +761,7 @@ SWIFT_PROTOCOL("_TtP5PXKit17UIMapperConsuming_")
 - (NSString * _Nonnull)getFilterClass SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic, readonly) BOOL isCrossPlatform;
 @end
+
 
 
 
@@ -1080,6 +1087,10 @@ SWIFT_CLASS_NAMED("AnalyticsConfigurations")
 /// precondition:
 /// must be greater than 20
 @property (nonatomic) NSInteger flushQueueSize;
+/// maxQueueSize size of the events, default is 1000
+/// precondition:
+/// must be greater than 100 and less than 2000
+@property (nonatomic) NSInteger maxQueueSize;
 /// dispatch time interval of the events, default 60
 /// precondition:
 /// must be greater than 30
@@ -1181,6 +1192,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GainsightPX 
 - (void)identifyWithUserId:(NSString * _Nonnull)userId errorCompletionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))errorCompletionBlock;
 - (void)identifyWithUser:(PXUser * _Nonnull)user errorCompletionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))errorCompletionBlock;
 - (void)setSupportedInterfaceOrientationsWithOrientation:(UIInterfaceOrientationMask)orientation;
+- (void)startJSBridgeWithWebview:(WKWebView * _Nonnull)webview SWIFT_DEPRECATED_MSG("Use startTracking(webview:) instead.");
 /// JSBridge
 /// Parameter webview: WKWebView instance of a hybrid application.
 /// Since: 1.7.0
@@ -1194,7 +1206,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GainsightPX 
 /// }
 ///
 /// \endcode
-- (void)startJSBridgeWithWebview:(WKWebView * _Nonnull)webview;
+- (void)startTrackingWithWebview:(WKWebView * _Nullable)webview;
+- (void)stopTrackingWebView;
 /// GlobalContext
 /// since:
 /// 0.10.1
@@ -1574,6 +1587,7 @@ SWIFT_PROTOCOL("_TtP5PXKit17UIMapperConsuming_")
 - (NSString * _Nonnull)getFilterClass SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic, readonly) BOOL isCrossPlatform;
 @end
+
 
 
 
@@ -1899,6 +1913,10 @@ SWIFT_CLASS_NAMED("AnalyticsConfigurations")
 /// precondition:
 /// must be greater than 20
 @property (nonatomic) NSInteger flushQueueSize;
+/// maxQueueSize size of the events, default is 1000
+/// precondition:
+/// must be greater than 100 and less than 2000
+@property (nonatomic) NSInteger maxQueueSize;
 /// dispatch time interval of the events, default 60
 /// precondition:
 /// must be greater than 30
@@ -2000,6 +2018,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GainsightPX 
 - (void)identifyWithUserId:(NSString * _Nonnull)userId errorCompletionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))errorCompletionBlock;
 - (void)identifyWithUser:(PXUser * _Nonnull)user errorCompletionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))errorCompletionBlock;
 - (void)setSupportedInterfaceOrientationsWithOrientation:(UIInterfaceOrientationMask)orientation;
+- (void)startJSBridgeWithWebview:(WKWebView * _Nonnull)webview SWIFT_DEPRECATED_MSG("Use startTracking(webview:) instead.");
 /// JSBridge
 /// Parameter webview: WKWebView instance of a hybrid application.
 /// Since: 1.7.0
@@ -2013,7 +2032,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GainsightPX 
 /// }
 ///
 /// \endcode
-- (void)startJSBridgeWithWebview:(WKWebView * _Nonnull)webview;
+- (void)startTrackingWithWebview:(WKWebView * _Nullable)webview;
+- (void)stopTrackingWebView;
 /// GlobalContext
 /// since:
 /// 0.10.1
@@ -2393,6 +2413,7 @@ SWIFT_PROTOCOL("_TtP5PXKit17UIMapperConsuming_")
 - (NSString * _Nonnull)getFilterClass SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic, readonly) BOOL isCrossPlatform;
 @end
+
 
 
 

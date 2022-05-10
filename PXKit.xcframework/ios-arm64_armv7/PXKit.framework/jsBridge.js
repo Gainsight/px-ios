@@ -132,6 +132,7 @@ var PayloadActionType;
     PayloadActionType["get_element_at_postion"] = "get_element_at_postion";
     PayloadActionType["create_dom_structure"] = "create_dom_structure";
     PayloadActionType["update_configurations"] = "update_configurations";
+    PayloadActionType["send_screen_event"] = "send_screen_event";
 })(PayloadActionType || (PayloadActionType = {}));
 
 
@@ -353,7 +354,8 @@ function createEvent(body) {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "startPageTracker": () => (/* binding */ startPageTracker)
+/* harmony export */   "startPageTracker": () => (/* binding */ startPageTracker),
+/* harmony export */   "reportScreenEvent": () => (/* binding */ reportScreenEvent)
 /* harmony export */ });
 /* harmony import */ var _gainsightpx__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3);
 
@@ -656,18 +658,17 @@ function getLayoutOffset(shouldIgnoreSafeArea) {
     return location;
 }
 function elementPosition(elements) {
-    var pxRect = { x: 0, y: 0, width: 0, height: 0 };
     try {
         var selector = getSelectorFromElements(elements);
         if (selector == null) {
-            return pxRect;
+            return null;
         }
         var element = getElementForSelector(selector);
         if (element == null) {
-            return pxRect;
+            return null;
         }
         var rect = element.getBoundingClientRect();
-        pxRect = { x: rect.x, y: rect.y, width: rect.width, height: rect.height };
+        var pxRect = { x: rect.x, y: rect.y, width: rect.width, height: rect.height };
         var offset = getLayoutOffset(false);
         pxRect.y += offset.y;
         pxRect.x += offset.x;
@@ -675,7 +676,7 @@ function elementPosition(elements) {
     }
     catch (e) {
         (0,_gainsightpx__WEBPACK_IMPORTED_MODULE_1__.callHome)(e);
-        return pxRect;
+        return null;
     }
 }
 function domForRoot(root) {
@@ -757,36 +758,41 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _editor__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6);
 /* harmony import */ var _gainsightpx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3);
-/* harmony import */ var _type__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2);
+/* harmony import */ var _screenTracker__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4);
+/* harmony import */ var _type__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2);
+
 
 
 
 // SDK to Native
 function gpxSdkToJS(payload) {
     switch (payload.action) {
-        case _type__WEBPACK_IMPORTED_MODULE_2__.PayloadActionType.create_dom_structure:
+        case _type__WEBPACK_IMPORTED_MODULE_3__.PayloadActionType.create_dom_structure:
             GPXSDKTOJS.createDOMStructure();
             break;
-        case _type__WEBPACK_IMPORTED_MODULE_2__.PayloadActionType.get_element_at_postion:
+        case _type__WEBPACK_IMPORTED_MODULE_3__.PayloadActionType.get_element_at_postion:
             GPXSDKTOJS.getElementAtPosition(payload.params);
             break;
-        case _type__WEBPACK_IMPORTED_MODULE_2__.PayloadActionType.get_element_postion:
+        case _type__WEBPACK_IMPORTED_MODULE_3__.PayloadActionType.get_element_postion:
             GPXSDKTOJS.getElementPosition(payload.params);
             break;
-        case _type__WEBPACK_IMPORTED_MODULE_2__.PayloadActionType.update_web_view_frame:
+        case _type__WEBPACK_IMPORTED_MODULE_3__.PayloadActionType.update_web_view_frame:
             GPXSDKTOJS.updateWebViewRelativePosition(payload.params);
             break;
-        case _type__WEBPACK_IMPORTED_MODULE_2__.PayloadActionType.has_global_context_key:
+        case _type__WEBPACK_IMPORTED_MODULE_3__.PayloadActionType.has_global_context_key:
             GPXSDKTOJS.hasGlobalContextKey(payload.params);
             break;
-        case _type__WEBPACK_IMPORTED_MODULE_2__.PayloadActionType.engagement_callback:
+        case _type__WEBPACK_IMPORTED_MODULE_3__.PayloadActionType.engagement_callback:
             GPXSDKTOJS.engagementCallback(payload.params);
             break;
-        case _type__WEBPACK_IMPORTED_MODULE_2__.PayloadActionType.error_callback:
+        case _type__WEBPACK_IMPORTED_MODULE_3__.PayloadActionType.error_callback:
             GPXSDKTOJS.errorCallback(payload.params);
             break;
-        case _type__WEBPACK_IMPORTED_MODULE_2__.PayloadActionType.update_configurations:
+        case _type__WEBPACK_IMPORTED_MODULE_3__.PayloadActionType.update_configurations:
             GPXSDKTOJS.updateConfig(payload.params);
+            break;
+        case _type__WEBPACK_IMPORTED_MODULE_3__.PayloadActionType.send_screen_event:
+            GPXSDKTOJS.sendScreenEvent();
             break;
     }
 }
@@ -797,7 +803,7 @@ var GPXSDKTOJS = {
     createDOMStructure: function () {
         try {
             var dom = (0,_editor__WEBPACK_IMPORTED_MODULE_0__.createDOM)();
-            (0,_gainsightpx__WEBPACK_IMPORTED_MODULE_1__.createEvent)({ type: _type__WEBPACK_IMPORTED_MODULE_2__.kEventType.dom, params: dom });
+            (0,_gainsightpx__WEBPACK_IMPORTED_MODULE_1__.createEvent)({ type: _type__WEBPACK_IMPORTED_MODULE_3__.kEventType.dom, params: dom });
         }
         catch (e) {
             (0,_gainsightpx__WEBPACK_IMPORTED_MODULE_1__.callHome)(e);
@@ -808,7 +814,7 @@ var GPXSDKTOJS = {
             return;
         try {
             var element = (0,_editor__WEBPACK_IMPORTED_MODULE_0__.elementAtPosition)(location);
-            (0,_gainsightpx__WEBPACK_IMPORTED_MODULE_1__.createEvent)({ type: _type__WEBPACK_IMPORTED_MODULE_2__.kEventType.elementAtPosition, params: element });
+            (0,_gainsightpx__WEBPACK_IMPORTED_MODULE_1__.createEvent)({ type: _type__WEBPACK_IMPORTED_MODULE_3__.kEventType.elementAtPosition, params: element });
         }
         catch (e) {
             (0,_gainsightpx__WEBPACK_IMPORTED_MODULE_1__.callHome)(e);
@@ -819,7 +825,7 @@ var GPXSDKTOJS = {
             return;
         try {
             var position = (0,_editor__WEBPACK_IMPORTED_MODULE_0__.elementPosition)(tree.viewElements);
-            (0,_gainsightpx__WEBPACK_IMPORTED_MODULE_1__.createEvent)({ type: _type__WEBPACK_IMPORTED_MODULE_2__.kEventType.elementPosition, params: position });
+            (0,_gainsightpx__WEBPACK_IMPORTED_MODULE_1__.createEvent)({ type: _type__WEBPACK_IMPORTED_MODULE_3__.kEventType.elementPosition, params: position });
         }
         catch (e) {
             (0,_gainsightpx__WEBPACK_IMPORTED_MODULE_1__.callHome)(e);
@@ -857,6 +863,9 @@ var GPXSDKTOJS = {
     },
     updateConfig: function (config) {
         (0,_gainsightpx__WEBPACK_IMPORTED_MODULE_1__.updateConfigurations)(config);
+    },
+    sendScreenEvent: function () {
+        (0,_screenTracker__WEBPACK_IMPORTED_MODULE_2__.reportScreenEvent)();
     }
 };
 
