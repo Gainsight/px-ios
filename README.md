@@ -9,7 +9,9 @@ GainsighPX is available through CocoaPods.
 ### Swift Package Manager
 
 ```
-Add .package(url: "https://github.com/Gainsight/px-ios.git", from: "1.7.3") to your Package.swift file's dependencies.
+ dependencies: [
+  .package(url: "https://github.com/Gainsight/px-ios.git", from: "1.7.3")
+ ]
 ```
 
 ### CocoaPods
