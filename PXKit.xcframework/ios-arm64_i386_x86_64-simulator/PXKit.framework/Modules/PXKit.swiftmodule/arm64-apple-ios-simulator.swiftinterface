@@ -690,6 +690,7 @@ extension UIKit.UIImageView {
   @objc public class func disable()
   @objc public func reset()
   @objc public class func libraryVersion() -> Swift.String
+  @objc public class func bridgeName() -> Swift.String
   @objc public func enterEditingMode(url: Foundation.URL)
   @objc public func exitEditingMode()
   @objc deinit

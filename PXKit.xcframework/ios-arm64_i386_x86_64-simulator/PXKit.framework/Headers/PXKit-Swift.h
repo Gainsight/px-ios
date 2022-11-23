@@ -409,6 +409,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GainsightPX 
 + (void)disable;
 - (void)reset;
 + (NSString * _Nonnull)libraryVersion SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)bridgeName SWIFT_WARN_UNUSED_RESULT;
 - (void)enterEditingModeWithUrl:(NSURL * _Nonnull)url;
 - (void)exitEditingMode;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -1235,6 +1236,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GainsightPX 
 + (void)disable;
 - (void)reset;
 + (NSString * _Nonnull)libraryVersion SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)bridgeName SWIFT_WARN_UNUSED_RESULT;
 - (void)enterEditingModeWithUrl:(NSURL * _Nonnull)url;
 - (void)exitEditingMode;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -2061,6 +2063,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GainsightPX 
 + (void)disable;
 - (void)reset;
 + (NSString * _Nonnull)libraryVersion SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)bridgeName SWIFT_WARN_UNUSED_RESULT;
 - (void)enterEditingModeWithUrl:(NSURL * _Nonnull)url;
 - (void)exitEditingMode;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
