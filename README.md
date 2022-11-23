@@ -1,23 +1,23 @@
 [![N|Solid](https://app-dev.aptrinsic.com/home/gainsight-px-logo.svg)](https://app.aptrinsic.com)
 
-![version](https://img.shields.io/badge/version-1.7.3-blue.svg)  ![coverage](https://img.shields.io/badge/coverage-81%25-yellowgreen) ![PXKit](https://github.com/aptrinsic/ios-sdk/workflows/GainsightPX%20Framework/badge.svg?branch=feature%2FAPP-14013_local_evn_setup)
+![version](https://img.shields.io/badge/version-1.8-blue.svg) ![coverage](https://img.shields.io/badge/coverage-81%25-yellowgreen)
 
 # Installation
-
-GainsighPX is available through CocoaPods.
 
 ### Swift Package Manager
 
 ```
  dependencies: [
-  .package(url: "https://github.com/Gainsight/px-ios.git", from: "1.7.3")
+  .package(url: "https://github.com/Gainsight/px-ios.git", from: "1.8")
  ]
 ```
+
+GainsighPX is available through CocoaPods.
 
 ### CocoaPods
 
 ```
-pod 'PXKit', :git => 'git@github.com:Gainsight/px-ios.git', tag: '1.7.3'
+pod 'PXKit', :git => 'git@github.com:Gainsight/px-ios.git', tag: '1.8'
 ```
 
 > or
@@ -28,9 +28,7 @@ pod 'PXKit', :git => 'git@github.com:Gainsight/px-ios.git'
 
 # Documentation
 
-
 More detailed documentation is available at: <https://support.gainsight.com/PX/Mobile/Getting_Started/03Integrate_Gainsight_PX_with_iOS>
-
 
 ## Editor Deeplinking
 
@@ -59,4 +57,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
