@@ -59654,14 +59654,14 @@
       "kind": "StringLiteral",
       "offset": 172,
       "length": 8,
-      "value": "\"1.10.0\""
+      "value": "\"1.10.1\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/PXVersion.swift",
       "kind": "StringLiteral",
       "offset": 172,
       "length": 8,
-      "value": "\"1.10.0\""
+      "value": "\"1.10.1\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/GlobalContext\/GlobalContext.swift",
@@ -60072,91 +60072,98 @@
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/WebEditor\/WebEditorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4579,
+      "offset": 4461,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/WebEditor\/WebEditorViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4637,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/WebEditor\/WebEditorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4687,
+      "offset": 4745,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/WebEditor\/WebEditorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4753,
+      "offset": 4811,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/WebEditor\/WebEditorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5111,
+      "offset": 5169,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/WebEditor\/WebEditorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5193,
+      "offset": 5251,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/WebEditor\/WebEditorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5273,
+      "offset": 5331,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/WebEditor\/WebEditorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5357,
+      "offset": 5415,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/WebEditor\/WebEditorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5441,
+      "offset": 5499,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/WebEditor\/WebEditorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7142,
+      "offset": 7200,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/WebEditor\/WebEditorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8593,
+      "offset": 8651,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/WebEditor\/WebEditorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9749,
+      "offset": 9807,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/WebEditor\/WebEditorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10394,
+      "offset": 10452,
       "length": 18,
       "value": "\"Window Not Found\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/WebEditor\/WebEditorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10897,
+      "offset": 10955,
       "length": 3,
       "value": "500"
     },
@@ -67429,112 +67436,119 @@
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/GPXWebView\/GPXWebViewViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 997,
+      "offset": 883,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/GPXWebView\/GPXWebViewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1055,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/GPXWebView\/GPXWebViewViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1139,
+      "offset": 1197,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/GPXWebView\/GPXWebViewViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1205,
+      "offset": 1263,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/GPXWebView\/GPXWebViewViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1284,
+      "offset": 1342,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/GPXWebView\/GPXWebViewViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1366,
+      "offset": 1424,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/GPXWebView\/GPXWebViewViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1446,
+      "offset": 1504,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/GPXWebView\/GPXWebViewViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1530,
+      "offset": 1588,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/GPXWebView\/GPXWebViewViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1614,
+      "offset": 1672,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/GPXWebView\/GPXWebViewViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1743,
+      "offset": 1801,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/GPXWebView\/GPXWebViewViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1970,
+      "offset": 2028,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/GPXWebView\/GPXWebViewViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2145,
+      "offset": 2203,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/GPXWebView\/GPXWebViewViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2726,
+      "offset": 2784,
       "length": 5,
       "value": "\"gpx\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/GPXWebView\/GPXWebViewViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2865,
+      "offset": 2923,
       "length": 5,
       "value": "\"gpx\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/GPXWebView\/GPXWebViewViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4413,
+      "offset": 4471,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/GPXWebView\/GPXWebViewViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5013,
+      "offset": 5071,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/GPXWebView\/GPXWebViewViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5261,
+      "offset": 5319,
       "length": 18,
       "value": "\"Window Not Found\""
     },
