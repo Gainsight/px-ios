@@ -59654,14 +59654,14 @@
       "kind": "StringLiteral",
       "offset": 172,
       "length": 8,
-      "value": "\"1.10.2\""
+      "value": "\"1.10.3\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/PXVersion.swift",
       "kind": "StringLiteral",
       "offset": 172,
       "length": 8,
-      "value": "\"1.10.2\""
+      "value": "\"1.10.3\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/GlobalContext\/GlobalContext.swift",
@@ -61906,338 +61906,345 @@
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2502,
+      "offset": 2531,
       "length": 28,
       "value": "\"Time: \""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2516,
+      "offset": 2545,
       "length": 12,
       "value": "\" Milliseconds\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2570,
+      "offset": 2599,
       "length": 20,
       "value": "\"event string empty\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2625,
+      "offset": 2654,
       "length": 22,
       "value": "\"Params Empty on view\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2692,
+      "offset": 2721,
       "length": 31,
       "value": "\"engagement load time: \""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2722,
+      "offset": 2751,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2766,
+      "offset": 2795,
       "length": 27,
       "value": "\"Engagement Props \""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2792,
+      "offset": 2821,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2847,
+      "offset": 2876,
       "length": 40,
       "value": "\"Error writing engagement data \""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2886,
+      "offset": 2915,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2942,
+      "offset": 2971,
       "length": 45,
       "value": "\"Error writing sync engagement data \""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2986,
+      "offset": 3015,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3035,
+      "offset": 3064,
       "length": 28,
       "value": "\"event serialisation failed\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3108,
+      "offset": 3137,
       "length": 25,
       "value": "\"Failed to load renderer\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3175,
+      "offset": 3204,
       "length": 25,
       "value": "\"Failed to start mapping\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3255,
+      "offset": 3284,
       "length": 52,
       "value": "\"Failed to write engagement status to disk \""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3306,
+      "offset": 3335,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3339,
+      "offset": 3368,
       "length": 40,
       "value": "\"False track taps\/No application window\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3414,
+      "offset": 3443,
       "length": 21,
       "value": "\"Fetched engagements\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3471,
+      "offset": 3500,
       "length": 22,
       "value": "\"Fetching Engagements\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3530,
+      "offset": 3559,
       "length": 16,
       "value": "\"Flush Detected\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3586,
+      "offset": 3615,
       "length": 19,
       "value": "\"Incorrect command\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3639,
+      "offset": 3668,
       "length": 13,
       "value": "\"Invalid GPX\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3689,
+      "offset": 3718,
       "length": 16,
       "value": "\"Invalid UserId\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3742,
+      "offset": 3771,
       "length": 27,
       "value": "\"Loading Engagement failed\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3811,
+      "offset": 3840,
       "length": 22,
       "value": "\"Mapping Parse Failed\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3870,
+      "offset": 3899,
       "length": 25,
       "value": "\"Received memory warning\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3931,
+      "offset": 3960,
       "length": 23,
       "value": "\"No engagement content\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3985,
+      "offset": 4014,
       "length": 10,
       "value": "\"no rules\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4033,
+      "offset": 4062,
       "length": 23,
       "value": "\"No touch element tree\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4091,
+      "offset": 4120,
       "length": 16,
       "value": "\"Parsing failed\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4145,
+      "offset": 4174,
       "length": 20,
       "value": "\"removing old files\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4204,
+      "offset": 4233,
       "length": 34,
       "value": "\"removed renderer compressed file\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4286,
+      "offset": 4315,
       "length": 28,
       "value": "\"rules serialisation failed\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4352,
+      "offset": 4381,
       "length": 21,
       "value": "\"Force closed editor\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4407,
+      "offset": 4436,
       "length": 20,
       "value": "\"Synced Engagements\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4462,
+      "offset": 4491,
       "length": 21,
       "value": "\"Syncing Engagements\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4523,
+      "offset": 4552,
       "length": 31,
       "value": "\"shouldTrackTapEvents disabled\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4599,
+      "offset": 4628,
       "length": 24,
       "value": "\"Web Process terminated\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4663,
+      "offset": 4692,
       "length": 20,
       "value": "\"Failed to download\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4725,
+      "offset": 4754,
       "length": 22,
       "value": "\"JS Evaluation Failed\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4784,
+      "offset": 4813,
       "length": 17,
       "value": "\"No File Content\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4841,
+      "offset": 4870,
       "length": 30,
       "value": "\"Configurations cannot be nil\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4905,
+      "offset": 4934,
       "length": 37,
       "value": "\"Identify User params cannot be null\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4974,
+      "offset": 5003,
       "length": 35,
       "value": "\"ScreenEvent params cannot be null\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5041,
+      "offset": 5070,
       "length": 35,
       "value": "\"CustomEvent params cannot be null\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5121,
+      "offset": 5150,
       "length": 32,
       "value": "\"Keyboard dismiss action failed\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5204,
+      "offset": 5233,
       "length": 35,
       "value": "\"Failed to fetch webview to track.\""
+    },
+    {
+      "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Utils\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 5311,
+      "length": 23,
+      "value": "\"No Engagement Manager\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/TouchState.swift",
@@ -62389,7 +62396,7 @@
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/EditorHandler\/EditorManager.swift",
       "kind": "StringLiteral",
-      "offset": 3311,
+      "offset": 3399,
       "length": 39,
       "value": "\"Parsing url failed. Please try again.\""
     },
@@ -64208,22 +64215,36 @@
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Configurations\/ConfigurationHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4872,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Configurations\/ConfigurationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 4841,
+      "offset": 4912,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Configurations\/ConfigurationHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4932,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Configurations\/ConfigurationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 4908,
+      "offset": 4995,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Configurations\/ConfigurationHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 4961,
+      "offset": 5048,
       "length": 2,
       "value": "50"
     },
@@ -64328,84 +64349,91 @@
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/EditorHandler\/EditorDisplayHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 945,
+      "offset": 984,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/EditorHandler\/EditorDisplayHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1349,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/EditorHandler\/EditorDisplayHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1761,
+      "offset": 1860,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/EditorHandler\/EditorDisplayHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1921,
+      "offset": 2020,
       "length": 8,
       "value": "\"Editor\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/EditorHandler\/EditorDisplayHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2015,
+      "offset": 2114,
       "length": 4,
       "value": "\"OK\""
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/EditorHandler\/EditorDisplayHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 2351,
+      "offset": 2450,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/EditorHandler\/EditorDisplayHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 3142,
+      "offset": 3335,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/EditorHandler\/EditorDisplayHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 3223,
+      "offset": 3416,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/EditorHandler\/EditorDisplayHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 3467,
+      "offset": 3660,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/EditorHandler\/EditorDisplayHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 3483,
+      "offset": 3676,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/EditorHandler\/EditorDisplayHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 4115,
+      "offset": 4308,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/EditorHandler\/EditorDisplayHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 4293,
+      "offset": 4486,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/EditorHandler\/EditorDisplayHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 4480,
+      "offset": 4673,
       "length": 4,
       "value": "true"
     },
@@ -66245,22 +66273,29 @@
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/EngagementManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9856,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/EngagementManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10805,
+      "offset": 11151,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/EngagementManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 11345,
+      "offset": 11691,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/EngagementManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 14900,
+      "offset": 15246,
       "length": 5,
       "value": "false"
     },
@@ -73231,29 +73266,36 @@
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/EngagementDisplay.swift",
+      "kind": "IntegerLiteral",
+      "offset": 720,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/EngagementDisplay.swift",
       "kind": "BooleanLiteral",
-      "offset": 1383,
+      "offset": 1423,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/EngagementDisplay.swift",
       "kind": "BooleanLiteral",
-      "offset": 1586,
+      "offset": 1626,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/EngagementDisplay.swift",
       "kind": "BooleanLiteral",
-      "offset": 1602,
+      "offset": 1642,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mobileappdevteam\/Documents\/workspace\/actions-runner-ios\/_work\/ios-sdk\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/EngagementDisplay.swift",
       "kind": "BooleanLiteral",
-      "offset": 1775,
+      "offset": 1882,
       "length": 5,
       "value": "false"
     },
