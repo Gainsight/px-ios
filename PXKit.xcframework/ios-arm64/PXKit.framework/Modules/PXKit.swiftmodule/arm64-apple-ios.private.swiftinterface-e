@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PXKit
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PXKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Compression
 import CoreFoundation
 import CoreGraphics
@@ -646,18 +646,18 @@ extension UIKit.UIImageView {
       get
     }
   }
-  @_Concurrency.MainActor(unsafe) public var px_af_imageDownloader: PXKit.PXNetworking.ImageDownloader? {
+  @_Concurrency.MainActor @preconcurrency public var px_af_imageDownloader: PXKit.PXNetworking.ImageDownloader? {
     get
     set(downloader)
   }
-  @_Concurrency.MainActor(unsafe) public class var px_af_sharedImageDownloader: PXKit.PXNetworking.ImageDownloader {
+  @_Concurrency.MainActor @preconcurrency public class var px_af_sharedImageDownloader: PXKit.PXNetworking.ImageDownloader {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) public func px_af_setImage(withURL url: Foundation.URL, placeholderImage: UIKit.UIImage? = nil, filter: (any PXKit.PXNetworkingImageFilter)? = nil, progress: PXKit.PXNetworking.ImageDownloader.ProgressHandler? = nil, progressQueue: Dispatch.DispatchQueue = DispatchQueue.main, imageTransition: UIKit.UIImageView.PXNetworkingImageTransition = .noTransition, runImageTransitionIfCached: Swift.Bool = false, completion: ((PXKit.PXNetworking.DataResponse<UIKit.UIImage>) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor(unsafe) public func af_setImage(withURLRequest urlRequest: any PXKit.PXNetworkingURLRequestConvertible, placeholderImage: UIKit.UIImage? = nil, filter: (any PXKit.PXNetworkingImageFilter)? = nil, progress: PXKit.PXNetworking.ImageDownloader.ProgressHandler? = nil, progressQueue: Dispatch.DispatchQueue = DispatchQueue.main, imageTransition: UIKit.UIImageView.PXNetworkingImageTransition = .noTransition, runImageTransitionIfCached: Swift.Bool = false, completion: ((PXKit.PXNetworking.DataResponse<UIKit.UIImage>) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor(unsafe) public func px_af_cancelImageRequest()
-  @_Concurrency.MainActor(unsafe) public func px_run(_ imageTransition: UIKit.UIImageView.PXNetworkingImageTransition, with image: PXKit.PXNetworkingImage)
+  @_Concurrency.MainActor @preconcurrency public func px_af_setImage(withURL url: Foundation.URL, placeholderImage: UIKit.UIImage? = nil, filter: (any PXKit.PXNetworkingImageFilter)? = nil, progress: PXKit.PXNetworking.ImageDownloader.ProgressHandler? = nil, progressQueue: Dispatch.DispatchQueue = DispatchQueue.main, imageTransition: UIKit.UIImageView.PXNetworkingImageTransition = .noTransition, runImageTransitionIfCached: Swift.Bool = false, completion: ((PXKit.PXNetworking.DataResponse<UIKit.UIImage>) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public func af_setImage(withURLRequest urlRequest: any PXKit.PXNetworkingURLRequestConvertible, placeholderImage: UIKit.UIImage? = nil, filter: (any PXKit.PXNetworkingImageFilter)? = nil, progress: PXKit.PXNetworking.ImageDownloader.ProgressHandler? = nil, progressQueue: Dispatch.DispatchQueue = DispatchQueue.main, imageTransition: UIKit.UIImageView.PXNetworkingImageTransition = .noTransition, runImageTransitionIfCached: Swift.Bool = false, completion: ((PXKit.PXNetworking.DataResponse<UIKit.UIImage>) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public func px_af_cancelImageRequest()
+  @_Concurrency.MainActor @preconcurrency public func px_run(_ imageTransition: UIKit.UIImageView.PXNetworkingImageTransition, with image: PXKit.PXNetworkingImage)
 }
 @objc(PXAccount) public class Account : ObjectiveC.NSObject {
   @objc final public let id: Swift.String
@@ -903,20 +903,20 @@ extension PXKit.PXNetworking.AFIError : Foundation.LocalizedError {
 }
 public typealias ControlState = UIKit.UIControl.State
 extension UIKit.UIButton {
-  @_Concurrency.MainActor(unsafe) public var px_af_imageDownloader: PXKit.PXNetworking.ImageDownloader? {
+  @_Concurrency.MainActor @preconcurrency public var px_af_imageDownloader: PXKit.PXNetworking.ImageDownloader? {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) public class var px_af_sharedImageDownloader: PXKit.PXNetworking.ImageDownloader {
+  @_Concurrency.MainActor @preconcurrency public class var px_af_sharedImageDownloader: PXKit.PXNetworking.ImageDownloader {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) public func px_af_setImage(for state: PXKit.ControlState, url: Foundation.URL, placeholderImage: UIKit.UIImage? = nil, filter: (any PXKit.PXNetworkingImageFilter)? = nil, progress: PXKit.PXNetworking.ImageDownloader.ProgressHandler? = nil, progressQueue: Dispatch.DispatchQueue = DispatchQueue.main, completion: ((PXKit.PXNetworking.DataResponse<UIKit.UIImage>) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor(unsafe) public func px_af_setImage(for state: PXKit.ControlState, urlRequest: any PXKit.PXNetworkingURLRequestConvertible, placeholderImage: UIKit.UIImage? = nil, filter: (any PXKit.PXNetworkingImageFilter)? = nil, progress: PXKit.PXNetworking.ImageDownloader.ProgressHandler? = nil, progressQueue: Dispatch.DispatchQueue = DispatchQueue.main, completion: ((PXKit.PXNetworking.DataResponse<UIKit.UIImage>) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor(unsafe) public func px_af_cancelImageRequest(for state: PXKit.ControlState)
-  @_Concurrency.MainActor(unsafe) public func px_af_setBackgroundImage(for state: PXKit.ControlState, url: Foundation.URL, placeholderImage: UIKit.UIImage? = nil, filter: (any PXKit.PXNetworkingImageFilter)? = nil, progress: PXKit.PXNetworking.ImageDownloader.ProgressHandler? = nil, progressQueue: Dispatch.DispatchQueue = DispatchQueue.main, completion: ((PXKit.PXNetworking.DataResponse<UIKit.UIImage>) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor(unsafe) public func px_af_setBackgroundImage(for state: PXKit.ControlState, urlRequest: any PXKit.PXNetworkingURLRequestConvertible, placeholderImage: UIKit.UIImage? = nil, filter: (any PXKit.PXNetworkingImageFilter)? = nil, progress: PXKit.PXNetworking.ImageDownloader.ProgressHandler? = nil, progressQueue: Dispatch.DispatchQueue = DispatchQueue.main, completion: ((PXKit.PXNetworking.DataResponse<UIKit.UIImage>) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor(unsafe) public func px_af_cancelBackgroundImageRequest(for state: PXKit.ControlState)
+  @_Concurrency.MainActor @preconcurrency public func px_af_setImage(for state: PXKit.ControlState, url: Foundation.URL, placeholderImage: UIKit.UIImage? = nil, filter: (any PXKit.PXNetworkingImageFilter)? = nil, progress: PXKit.PXNetworking.ImageDownloader.ProgressHandler? = nil, progressQueue: Dispatch.DispatchQueue = DispatchQueue.main, completion: ((PXKit.PXNetworking.DataResponse<UIKit.UIImage>) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public func px_af_setImage(for state: PXKit.ControlState, urlRequest: any PXKit.PXNetworkingURLRequestConvertible, placeholderImage: UIKit.UIImage? = nil, filter: (any PXKit.PXNetworkingImageFilter)? = nil, progress: PXKit.PXNetworking.ImageDownloader.ProgressHandler? = nil, progressQueue: Dispatch.DispatchQueue = DispatchQueue.main, completion: ((PXKit.PXNetworking.DataResponse<UIKit.UIImage>) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public func px_af_cancelImageRequest(for state: PXKit.ControlState)
+  @_Concurrency.MainActor @preconcurrency public func px_af_setBackgroundImage(for state: PXKit.ControlState, url: Foundation.URL, placeholderImage: UIKit.UIImage? = nil, filter: (any PXKit.PXNetworkingImageFilter)? = nil, progress: PXKit.PXNetworking.ImageDownloader.ProgressHandler? = nil, progressQueue: Dispatch.DispatchQueue = DispatchQueue.main, completion: ((PXKit.PXNetworking.DataResponse<UIKit.UIImage>) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public func px_af_setBackgroundImage(for state: PXKit.ControlState, urlRequest: any PXKit.PXNetworkingURLRequestConvertible, placeholderImage: UIKit.UIImage? = nil, filter: (any PXKit.PXNetworkingImageFilter)? = nil, progress: PXKit.PXNetworking.ImageDownloader.ProgressHandler? = nil, progressQueue: Dispatch.DispatchQueue = DispatchQueue.main, completion: ((PXKit.PXNetworking.DataResponse<UIKit.UIImage>) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public func px_af_cancelBackgroundImageRequest(for state: PXKit.ControlState)
 }
 @objc(PXAnalyticsConfigurations) public class AnalyticsConfigurations : ObjectiveC.NSObject {
   @objc public var apiKey: Swift.String
