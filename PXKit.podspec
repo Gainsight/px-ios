@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'PXKit'
-  s.version = '1.12.0'
+  s.version = '1.12.1'
   s.license = 'MIT'
   s.summary = 'GainsightPX Engine Swift'
   s.homepage = 'https://app.aptrinsic.com/authentication/login'

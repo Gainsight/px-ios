@@ -1,8 +1,8 @@
 //
-//  SEGCrypto.h
+//  GPXCrypto.h
 //  Analytics
 //
-//  Copyright © 2016 Segment. All rights reserved.
+//  Copyright © 2016 GPX. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

@@ -1,6 +1,6 @@
 [![N|Solid](https://app-dev.aptrinsic.com/home/gainsight-px-logo.svg)](https://app.aptrinsic.com)
 
-![version](https://img.shields.io/badge/version-1.12.0-blue.svg) ![coverage](https://img.shields.io/badge/coverage-81%25-yellowgreen)
+![version](https://img.shields.io/badge/version-1.12.1-blue.svg) ![coverage](https://img.shields.io/badge/coverage-81%25-yellowgreen)
 
 # Installation
 
@@ -8,7 +8,7 @@
 
 ```
  dependencies: [
-  .package(url: "https://github.com/Gainsight/px-ios.git", from: "1.12.0")
+  .package(url: "https://github.com/Gainsight/px-ios.git", from: "1.12.1")
  ]
 ```
 
@@ -16,8 +16,22 @@ GainsighPX is available through CocoaPods.
 
 ### CocoaPods
 
+The framesork is now available on CocoaPods directly.
+Add pod 'Gainsight-PX' to the Podfile as follows: 
+
 ```
-pod 'PXKit', :git => 'git@github.com:Gainsight/px-ios.git', tag: '1.12.0'
+target 'MyApp' do
+    pod 'Gainsight-PX'
+End
+```
+
+Run a pod install from your terminal, or from CocoaPods.app.
+> **IMPORTANT**: Ensure that the framework that you have integrated earlier is removed before proceeding with the installation.
+
+You can also still use the previous method of installing the framework from GitHub:
+
+```
+pod 'PXKit', :git => 'git@github.com:Gainsight/px-ios.git', tag: '1.12.1'
 ```
 
 > or

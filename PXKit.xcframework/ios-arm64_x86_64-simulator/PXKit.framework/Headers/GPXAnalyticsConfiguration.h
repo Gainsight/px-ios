@@ -9,17 +9,17 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@protocol SEGApplicationProtocol <NSObject>
+@protocol GPXApplicationProtocol <NSObject>
 @property (nullable, nonatomic, assign) id<UIApplicationDelegate> delegate;
 - (UIBackgroundTaskIdentifier)gpx_beginBackgroundTaskWithName:(nullable NSString *)taskName expirationHandler:(void (^__nullable)(void))handler;
 - (void)gpx_endBackgroundTask:(UIBackgroundTaskIdentifier)identifier;
 @end
 
 
-@interface UIApplication (GPXApplicationProtocol) <SEGApplicationProtocol>
+@interface UIApplication (GPXApplicationProtocol) <GPXApplicationProtocol>
 @end
 
-typedef NSMutableURLRequest *_Nonnull (^SEGRequestFactory)(NSURL *_Nonnull);
+typedef NSMutableURLRequest *_Nonnull (^GPXRequestFactory)(NSURL *_Nonnull);
 
 @protocol GPXIntegrationFactory;
 @protocol GPXCrypto;
@@ -118,7 +118,7 @@ typedef NSMutableURLRequest *_Nonnull (^SEGRequestFactory)(NSURL *_Nonnull);
 /**
  * Set a custom request factory.
  */
-@property (nonatomic, strong, nullable) SEGRequestFactory requestFactory;
+@property (nonatomic, strong, nullable) GPXRequestFactory requestFactory;
 
 /**
  * Set a custom crypto
@@ -138,7 +138,7 @@ typedef NSMutableURLRequest *_Nonnull (^SEGRequestFactory)(NSURL *_Nonnull);
 /**
  * Leave this nil for iOS extensions, otherwise set to UIApplication.sharedApplication.
  */
-@property (nonatomic, strong, nullable) id<SEGApplicationProtocol> application;
+@property (nonatomic, strong, nullable) id<GPXApplicationProtocol> application;
 
 /**
  * A dictionary of filters to redact payloads before they are sent.
