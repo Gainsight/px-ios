@@ -48,7 +48,7 @@ More detailed documentation is available at: <https://support.gainsight.com/PX/M
 
 More detailed documentation is available at: <https://support.gainsight.com/PX/Mobile/01Getting_Started/Integrate_Gainsight_PX_Editor_with_your_Mobile_Platform>
 
-## Release Notes
+# Release Notes
 
 Version 1.12.7
 * Fixed issue: events were being lost when the app cleared from RAM.
@@ -263,7 +263,7 @@ Version 0.9.1
 * Added Page Event.
 * Added Identify and Account.
 
-## License
+# License
 
 MIT License
 
