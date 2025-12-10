@@ -3436,6 +3436,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PXKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -43243,26 +43253,27 @@
           },
           {
             "kind": "Var",
-            "name": "signUpDate",
-            "printedName": "signUpDate",
+            "name": "signUpDateValue",
+            "printedName": "signUpDateValue",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Any?",
+                "printedName": "ObjectiveC.NSObject?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PXKit@objc(cs)PXUser(py)signUpDate",
-            "mangledName": "$s5PXKit4UserC10signUpDateypSgvp",
+            "usr": "c:@M@PXKit@objc(cs)PXUser(py)signUpDateValue",
+            "mangledName": "$s5PXKit4UserC15signUpDateValueSo8NSObjectCSgvp",
             "moduleName": "PXKit",
             "declAttributes": [
               "HasInitialValue",
@@ -43281,20 +43292,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Any?",
+                    "printedName": "ObjectiveC.NSObject?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
+                        "name": "NSObject",
+                        "printedName": "ObjectiveC.NSObject",
+                        "usr": "c:objc(cs)NSObject"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PXKit@objc(cs)PXUser(im)signUpDate",
-                "mangledName": "$s5PXKit4UserC10signUpDateypSgvg",
+                "usr": "c:@M@PXKit@objc(cs)PXUser(im)signUpDateValue",
+                "mangledName": "$s5PXKit4UserC15signUpDateValueSo8NSObjectCSgvg",
                 "moduleName": "PXKit",
                 "implicit": true,
                 "declAttributes": [
@@ -43315,20 +43327,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Any?",
+                    "printedName": "ObjectiveC.NSObject?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
+                        "name": "NSObject",
+                        "printedName": "ObjectiveC.NSObject",
+                        "usr": "c:objc(cs)NSObject"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PXKit@objc(cs)PXUser(im)setSignUpDate:",
-                "mangledName": "$s5PXKit4UserC10signUpDateypSgvs",
+                "usr": "c:@M@PXKit@objc(cs)PXUser(im)setSignUpDateValue:",
+                "mangledName": "$s5PXKit4UserC15signUpDateValueSo8NSObjectCSgvs",
                 "moduleName": "PXKit",
                 "implicit": true,
                 "declAttributes": [
@@ -43348,8 +43361,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5PXKit4UserC10signUpDateypSgvM",
-                "mangledName": "$s5PXKit4UserC10signUpDateypSgvM",
+                "usr": "s:5PXKit4UserC15signUpDateValueSo8NSObjectCSgvM",
+                "mangledName": "$s5PXKit4UserC15signUpDateValueSo8NSObjectCSgvM",
                 "moduleName": "PXKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -46049,26 +46062,27 @@
           },
           {
             "kind": "Var",
-            "name": "firstVisitDate",
-            "printedName": "firstVisitDate",
+            "name": "firstVisitDateValue",
+            "printedName": "firstVisitDateValue",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Any?",
+                "printedName": "ObjectiveC.NSObject?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@PXKit@objc(cs)PXUser(py)firstVisitDate",
-            "mangledName": "$s5PXKit4UserC14firstVisitDateypSgvp",
+            "usr": "c:@M@PXKit@objc(cs)PXUser(py)firstVisitDateValue",
+            "mangledName": "$s5PXKit4UserC19firstVisitDateValueSo8NSObjectCSgvp",
             "moduleName": "PXKit",
             "declAttributes": [
               "HasInitialValue",
@@ -46087,20 +46101,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Any?",
+                    "printedName": "ObjectiveC.NSObject?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
+                        "name": "NSObject",
+                        "printedName": "ObjectiveC.NSObject",
+                        "usr": "c:objc(cs)NSObject"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PXKit@objc(cs)PXUser(im)firstVisitDate",
-                "mangledName": "$s5PXKit4UserC14firstVisitDateypSgvg",
+                "usr": "c:@M@PXKit@objc(cs)PXUser(im)firstVisitDateValue",
+                "mangledName": "$s5PXKit4UserC19firstVisitDateValueSo8NSObjectCSgvg",
                 "moduleName": "PXKit",
                 "implicit": true,
                 "declAttributes": [
@@ -46121,20 +46136,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Any?",
+                    "printedName": "ObjectiveC.NSObject?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
+                        "name": "NSObject",
+                        "printedName": "ObjectiveC.NSObject",
+                        "usr": "c:objc(cs)NSObject"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@PXKit@objc(cs)PXUser(im)setFirstVisitDate:",
-                "mangledName": "$s5PXKit4UserC14firstVisitDateypSgvs",
+                "usr": "c:@M@PXKit@objc(cs)PXUser(im)setFirstVisitDateValue:",
+                "mangledName": "$s5PXKit4UserC19firstVisitDateValueSo8NSObjectCSgvs",
                 "moduleName": "PXKit",
                 "implicit": true,
                 "declAttributes": [
@@ -46154,8 +46170,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5PXKit4UserC14firstVisitDateypSgvM",
-                "mangledName": "$s5PXKit4UserC14firstVisitDateypSgvM",
+                "usr": "s:5PXKit4UserC19firstVisitDateValueSo8NSObjectCSgvM",
+                "mangledName": "$s5PXKit4UserC19firstVisitDateValueSo8NSObjectCSgvM",
                 "moduleName": "PXKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -46606,6 +46622,664 @@
               "Override"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "signUpDate",
+            "printedName": "signUpDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5PXKit4UserC10signUpDate10Foundation0E0VSgvp",
+            "mangledName": "$s5PXKit4UserC10signUpDate10Foundation0E0VSgvp",
+            "moduleName": "PXKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5PXKit4UserC10signUpDate10Foundation0E0VSgvg",
+                "mangledName": "$s5PXKit4UserC10signUpDate10Foundation0E0VSgvg",
+                "moduleName": "PXKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5PXKit4UserC10signUpDate10Foundation0E0VSgvs",
+                "mangledName": "$s5PXKit4UserC10signUpDate10Foundation0E0VSgvs",
+                "moduleName": "PXKit",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5PXKit4UserC10signUpDate10Foundation0E0VSgvM",
+                "mangledName": "$s5PXKit4UserC10signUpDate10Foundation0E0VSgvM",
+                "moduleName": "PXKit",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "signUpDateString",
+            "printedName": "signUpDateString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5PXKit4UserC16signUpDateStringSSSgvp",
+            "mangledName": "$s5PXKit4UserC16signUpDateStringSSSgvp",
+            "moduleName": "PXKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5PXKit4UserC16signUpDateStringSSSgvg",
+                "mangledName": "$s5PXKit4UserC16signUpDateStringSSSgvg",
+                "moduleName": "PXKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5PXKit4UserC16signUpDateStringSSSgvs",
+                "mangledName": "$s5PXKit4UserC16signUpDateStringSSSgvs",
+                "moduleName": "PXKit",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5PXKit4UserC16signUpDateStringSSSgvM",
+                "mangledName": "$s5PXKit4UserC16signUpDateStringSSSgvM",
+                "moduleName": "PXKit",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "signUpDateEpoch",
+            "printedName": "signUpDateEpoch",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5PXKit4UserC15signUpDateEpochSiSgvp",
+            "mangledName": "$s5PXKit4UserC15signUpDateEpochSiSgvp",
+            "moduleName": "PXKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5PXKit4UserC15signUpDateEpochSiSgvg",
+                "mangledName": "$s5PXKit4UserC15signUpDateEpochSiSgvg",
+                "moduleName": "PXKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5PXKit4UserC15signUpDateEpochSiSgvs",
+                "mangledName": "$s5PXKit4UserC15signUpDateEpochSiSgvs",
+                "moduleName": "PXKit",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5PXKit4UserC15signUpDateEpochSiSgvM",
+                "mangledName": "$s5PXKit4UserC15signUpDateEpochSiSgvM",
+                "moduleName": "PXKit",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "firstVisitDate",
+            "printedName": "firstVisitDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5PXKit4UserC14firstVisitDate10Foundation0E0VSgvp",
+            "mangledName": "$s5PXKit4UserC14firstVisitDate10Foundation0E0VSgvp",
+            "moduleName": "PXKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5PXKit4UserC14firstVisitDate10Foundation0E0VSgvg",
+                "mangledName": "$s5PXKit4UserC14firstVisitDate10Foundation0E0VSgvg",
+                "moduleName": "PXKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5PXKit4UserC14firstVisitDate10Foundation0E0VSgvs",
+                "mangledName": "$s5PXKit4UserC14firstVisitDate10Foundation0E0VSgvs",
+                "moduleName": "PXKit",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5PXKit4UserC14firstVisitDate10Foundation0E0VSgvM",
+                "mangledName": "$s5PXKit4UserC14firstVisitDate10Foundation0E0VSgvM",
+                "moduleName": "PXKit",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "firstVisitDateString",
+            "printedName": "firstVisitDateString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5PXKit4UserC20firstVisitDateStringSSSgvp",
+            "mangledName": "$s5PXKit4UserC20firstVisitDateStringSSSgvp",
+            "moduleName": "PXKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5PXKit4UserC20firstVisitDateStringSSSgvg",
+                "mangledName": "$s5PXKit4UserC20firstVisitDateStringSSSgvg",
+                "moduleName": "PXKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5PXKit4UserC20firstVisitDateStringSSSgvs",
+                "mangledName": "$s5PXKit4UserC20firstVisitDateStringSSSgvs",
+                "moduleName": "PXKit",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5PXKit4UserC20firstVisitDateStringSSSgvM",
+                "mangledName": "$s5PXKit4UserC20firstVisitDateStringSSSgvM",
+                "moduleName": "PXKit",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "firstVisitDateEpoch",
+            "printedName": "firstVisitDateEpoch",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5PXKit4UserC19firstVisitDateEpochSiSgvp",
+            "mangledName": "$s5PXKit4UserC19firstVisitDateEpochSiSgvp",
+            "moduleName": "PXKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5PXKit4UserC19firstVisitDateEpochSiSgvg",
+                "mangledName": "$s5PXKit4UserC19firstVisitDateEpochSiSgvg",
+                "moduleName": "PXKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5PXKit4UserC19firstVisitDateEpochSiSgvs",
+                "mangledName": "$s5PXKit4UserC19firstVisitDateEpochSiSgvs",
+                "moduleName": "PXKit",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5PXKit4UserC19firstVisitDateEpochSiSgvM",
+                "mangledName": "$s5PXKit4UserC19firstVisitDateEpochSiSgvM",
+                "moduleName": "PXKit",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -59726,7 +60400,7 @@
       "kind": "StringLiteral",
       "offset": 172,
       "length": 8,
-      "value": "\"1.12.7\""
+      "value": "\"1.13.0\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/GlobalContext\/GlobalContext.swift",
