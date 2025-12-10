@@ -811,7 +811,7 @@ SWIFT_CLASS_NAMED("User")
 @property (nonatomic, copy) NSString * _Nullable lastName;
 @property (nonatomic, copy) NSString * _Nullable firstName;
 /// This can have ISO format, Epoch timestamp or a <code>Date</code> format
-@property (nonatomic) id _Nullable signUpDate;
+@property (nonatomic, strong) NSObject * _Nullable signUpDateValue;
 @property (nonatomic, copy) NSString * _Nullable title;
 @property (nonatomic, copy) NSString * _Nullable role;
 @property (nonatomic, copy) NSString * _Nullable subscriptionId;
@@ -836,7 +836,7 @@ SWIFT_CLASS_NAMED("User")
 @property (nonatomic, strong) NSNumber * _Nullable organizationDuns;
 @property (nonatomic, copy) NSString * _Nullable accountId;
 /// This can have ISO format, Epoch timestamp or a <code>Date</code> format
-@property (nonatomic) id _Nullable firstVisitDate;
+@property (nonatomic, strong) NSObject * _Nullable firstVisitDateValue;
 @property (nonatomic, strong) NSNumber * _Nullable score;
 @property (nonatomic, copy) NSString * _Nullable sfdcContactId;
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nullable customAttributes;

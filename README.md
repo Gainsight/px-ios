@@ -1,6 +1,6 @@
 [![N|Solid](https://app-dev.aptrinsic.com/home/gainsight-px-logo.svg)](https://app.aptrinsic.com)
 
-![version](https://img.shields.io/badge/version-1.12.7-blue.svg) ![coverage](https://img.shields.io/badge/coverage-81%25-yellowgreen)
+![version](https://img.shields.io/badge/version-1.13.0-blue.svg) ![coverage](https://img.shields.io/badge/coverage-81%25-yellowgreen)
 
 # Installation
 
@@ -8,7 +8,7 @@
 
 ```
  dependencies: [
-  .package(url: "https://github.com/Gainsight/px-ios.git", from: "1.12.7")
+  .package(url: "https://github.com/Gainsight/px-ios.git", from: "1.13.0")
  ]
 ```
 
@@ -31,7 +31,7 @@ Run a pod install from your terminal, or from CocoaPods.app.
 You can also still use the previous method of installing the framework from GitHub:
 
 ```
-pod 'PXKit', :git => 'git@github.com:Gainsight/px-ios.git', tag: '1.12.7'
+pod 'PXKit', :git => 'git@github.com:Gainsight/px-ios.git', tag: '1.13.0'
 ```
 
 > or
@@ -49,6 +49,11 @@ More detailed documentation is available at: <https://support.gainsight.com/PX/M
 More detailed documentation is available at: <https://support.gainsight.com/PX/Mobile/01Getting_Started/Integrate_Gainsight_PX_Editor_with_your_Mobile_Platform>
 
 # Release Notes
+
+Version 1.13.0
+* Refactored `signUpDate` and `firstVisitDate` for cross-language use.
+* Backing properties are now `signUpDateValue` / `firstVisitDateValue` (`NSObject` for Objective-C compatibility).
+* Added type-safe Swift accessors: `signUpDate`, `signUpDateString`, `signUpDateEpoch`, etc.
 
 Version 1.12.7
 * Fixed issue: events were being lost when the app cleared from RAM.

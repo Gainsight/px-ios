@@ -292,6 +292,44 @@ public func px_stream(withHostName hostName: Swift.String, port: Swift.Int) -> P
 @available(iOS 9.0, macOS 10.11, tvOS 9.0, *)
 @discardableResult
 public func px_stream(with netService: Foundation.NetService) -> PXKit.PXNetworking.StreamRequest
+extension PXKit.User {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var signUpDate: Foundation.Date? {
+    get
+    set
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var signUpDateString: Swift.String? {
+    get
+    set
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var signUpDateEpoch: Swift.Int? {
+    get
+    set
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var firstVisitDate: Foundation.Date? {
+    get
+    set
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var firstVisitDateString: Swift.String? {
+    get
+    set
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var firstVisitDateEpoch: Swift.Int? {
+    get
+    set
+  }
+  #endif
+}
 public protocol PXNetworkingImageFilter {
   var px_filter: (PXKit.PXNetworkingImage) -> PXKit.PXNetworkingImage { get }
   var px_identifier: Swift.String { get }
@@ -1071,7 +1109,7 @@ extension PXKit.PXNetworking.AFIError : Foundation.LocalizedError {
   @objc public var gender: Swift.String?
   @objc public var lastName: Swift.String?
   @objc public var firstName: Swift.String?
-  @objc public var signUpDate: Any?
+  @objc public var signUpDateValue: ObjectiveC.NSObject?
   @objc public var title: Swift.String?
   @objc public var role: Swift.String?
   @objc public var subscriptionId: Swift.String?
@@ -1095,7 +1133,7 @@ extension PXKit.PXNetworking.AFIError : Foundation.LocalizedError {
   @objc public var organizationSicCode: Swift.String?
   @objc public var organizationDuns: Foundation.NSNumber?
   @objc public var accountId: Swift.String?
-  @objc public var firstVisitDate: Any?
+  @objc public var firstVisitDateValue: ObjectiveC.NSObject?
   @objc public var score: Foundation.NSNumber?
   @objc public var sfdcContactId: Swift.String?
   @objc public var customAttributes: [Swift.String : Any]?
