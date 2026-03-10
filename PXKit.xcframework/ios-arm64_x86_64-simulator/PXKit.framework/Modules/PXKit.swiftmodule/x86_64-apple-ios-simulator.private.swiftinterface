@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PXKit
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import Compression
 import CoreFoundation
 import CoreGraphics
@@ -202,7 +202,7 @@ public enum ConnectionMode : Swift.Equatable {
   case custom(host: Swift.String)
   public static func == (a: PXKit.ConnectionMode, b: PXKit.ConnectionMode) -> Swift.Bool
 }
-@_inheritsConvenienceInitializers @objc(PXGlobalContext) public class GlobalContext : ObjectiveC.NSObject {
+@objc(PXGlobalContext) public class GlobalContext : ObjectiveC.NSObject {
   @objc public func setString(key: Swift.String, value: Swift.String) -> PXKit.GlobalContext
   @objc public func setDouble(key: Swift.String, value: Swift.Double) -> PXKit.GlobalContext
   @objc public func setBoolean(key: Swift.String, value: Swift.Bool) -> PXKit.GlobalContext
@@ -461,7 +461,7 @@ extension PXKit.PXNetworking {
   }
 }
 extension PXKit.PXNetworking {
-  @objc @_inheritsConvenienceInitializers open class SessionDelegate : ObjectiveC.NSObject {
+  @objc open class SessionDelegate : ObjectiveC.NSObject {
     open var sessionDidBecomeInvalidWithError: ((Foundation.URLSession, (any Swift.Error)?) -> Swift.Void)?
     open var sessionDidReceiveChallenge: ((Foundation.URLSession, Foundation.URLAuthenticationChallenge) -> (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?))?
     open var sessionDidReceiveChallengeWithCompletion: ((Foundation.URLSession, Foundation.URLAuthenticationChallenge, @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void) -> Swift.Void)?
@@ -571,7 +571,7 @@ extension PXKit.PXNetworking.SessionDelegate : Foundation.URLSessionStreamDelega
 extension PXKit.GainsightPX {
   @objc dynamic public func trackTap(viewElements: [[Swift.String : Any]], points: Swift.Int)
 }
-@_hasMissingDesignatedInitializers public class PXNetworking {
+public class PXNetworking {
   #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   public static func fetch(url: Foundation.URL, params: [Swift.String : Any]?, headers: [Swift.String : Swift.String]?, httpMethod: PXKit.PXNetworking.HTTPMethod, completion: @escaping (Foundation.Data?, Foundation.HTTPURLResponse?, (any Swift.Error)?) -> Swift.Void) -> Foundation.URLSessionTask?
@@ -877,7 +877,7 @@ extension UIKit.UIImageView {
   @objc public init(id: Swift.String)
   @objc deinit
 }
-@_hasMissingDesignatedInitializers @objc public class GainsightPX : ObjectiveC.NSObject {
+@objc public class GainsightPX : ObjectiveC.NSObject {
   @objc weak public var uiMapperConsumer: (any PXKit.UIMapperConsuming)? {
     @objc get
     @objc set
@@ -945,7 +945,7 @@ extension PXKit.GainsightPX {
   #endif
 }
 extension PXKit.PXNetworking {
-  @objc @_hasMissingDesignatedInitializers open class TaskDelegate : ObjectiveC.NSObject {
+  @objc open class TaskDelegate : ObjectiveC.NSObject {
     final public let queue: Foundation.OperationQueue
     #if compiler(>=5.3) && $NonescapableTypes
     public var data: Foundation.Data? {
@@ -957,7 +957,7 @@ extension PXKit.PXNetworking {
   }
 }
 extension PXKit.PXNetworking {
-  @_hasMissingDesignatedInitializers open class NetworkReachabilityManager {
+  open class NetworkReachabilityManager {
     public enum NetworkReachabilityStatus {
       case unknown
       case notReachable
@@ -1009,7 +1009,7 @@ extension PXKit.PXNetworking.NetworkReachabilityManager.NetworkReachabilityStatu
 }
 public func == (lhs: PXKit.PXNetworking.NetworkReachabilityManager.NetworkReachabilityStatus, rhs: PXKit.PXNetworking.NetworkReachabilityManager.NetworkReachabilityStatus) -> Swift.Bool
 extension PXKit.PXNetworking {
-  @_hasMissingDesignatedInitializers open class RequestReceipt {
+  open class RequestReceipt {
     final public let request: PXKit.PXNetworking.Request
     final public let receiptID: Swift.String
     @objc deinit
@@ -1420,7 +1420,7 @@ extension Foundation.URL {
   public func isContained(in parentDirectoryURL: Foundation.URL) -> Swift.Bool
 }
 public typealias PXEngagementCallBack = (PXKit.EngagementCallBackModel?, (any Swift.Error)?) -> Swift.Bool
-@_hasMissingDesignatedInitializers @objc(PXEngagementCallBackModel) public class EngagementCallBackModel : ObjectiveC.NSObject {
+@objc(PXEngagementCallBackModel) public class EngagementCallBackModel : ObjectiveC.NSObject {
   @objc final public let actionText: Swift.String
   @objc final public let actionData: Swift.String
   @objc final public let actionsType: Swift.String
@@ -1570,7 +1570,7 @@ extension PXKit.PXNetworking {
     get
   }
 }
-@_inheritsConvenienceInitializers @objc(PXConnection) public class Connection : ObjectiveC.NSObject {
+@objc(PXConnection) public class Connection : ObjectiveC.NSObject {
   public var connectionMode: PXKit.ConnectionMode {
     get
     set
@@ -1797,7 +1797,7 @@ public protocol PXNetworkingRequestRetrier {
 }
 public typealias PXNetworkingHTTPHeaders = [Swift.String : Swift.String]
 extension PXKit.PXNetworking {
-  @_hasMissingDesignatedInitializers open class Request {
+  open class Request {
     public typealias ProgressHandler = (Foundation.Progress) -> Swift.Void
     open var delegate: PXKit.PXNetworking.TaskDelegate {
       get
@@ -1845,7 +1845,7 @@ extension PXKit.PXNetworking.Request : Swift.CustomDebugStringConvertible {
   }
 }
 extension PXKit.PXNetworking {
-  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class DataRequest : PXKit.PXNetworking.Request {
+  open class DataRequest : PXKit.PXNetworking.Request {
     #if compiler(>=5.3) && $NonescapableTypes
     override open var request: Foundation.URLRequest? {
       get
@@ -1862,7 +1862,7 @@ extension PXKit.PXNetworking {
     open func downloadProgress(queue: Dispatch.DispatchQueue = DispatchQueue.main, closure: @escaping PXKit.PXNetworking.DataRequest.ProgressHandler) -> Self
     @objc deinit
   }
-  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class DownloadRequest : PXKit.PXNetworking.Request {
+  open class DownloadRequest : PXKit.PXNetworking.Request {
     public struct DownloadOptions : Swift.OptionSet {
       public let rawValue: Swift.UInt
       public static let createIntermediateDirectories: PXKit.PXNetworking.DownloadRequest.DownloadOptions
@@ -1893,7 +1893,7 @@ extension PXKit.PXNetworking {
     open class func suggestedDownloadDestination(for directory: Foundation.FileManager.SearchPathDirectory = .documentDirectory, in domain: Foundation.FileManager.SearchPathDomainMask = .userDomainMask) -> PXKit.PXNetworking.DownloadRequest.DownloadFileDestination
     @objc deinit
   }
-  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class UploadRequest : PXKit.PXNetworking.DataRequest {
+  open class UploadRequest : PXKit.PXNetworking.DataRequest {
     #if compiler(>=5.3) && $NonescapableTypes
     override open var request: Foundation.URLRequest? {
       get
@@ -1908,7 +1908,7 @@ extension PXKit.PXNetworking {
   }
 }
 extension PXKit.PXNetworking {
-  @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 9.0, macOS 10.11, tvOS 9.0, *)
+  @available(iOS 9.0, macOS 10.11, tvOS 9.0, *)
   open class StreamRequest : PXKit.PXNetworking.Request {
     @objc deinit
   }
