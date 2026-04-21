@@ -60400,7 +60400,7 @@
       "kind": "StringLiteral",
       "offset": 172,
       "length": 8,
-      "value": "\"1.13.1\""
+      "value": "\"1.13.2\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/GlobalContext\/GlobalContext.swift",
@@ -60860,14 +60860,14 @@
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/GainsightPX.swift",
       "kind": "BooleanLiteral",
-      "offset": 3267,
+      "offset": 3315,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/GainsightPX.swift",
       "kind": "IntegerLiteral",
-      "offset": 13578,
+      "offset": 13626,
       "length": 1,
       "value": "2"
     },
