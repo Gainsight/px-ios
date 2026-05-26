@@ -41711,7 +41711,7 @@
           {
             "kind": "Function",
             "name": "engagements",
-            "printedName": "engagements(enable:)",
+            "printedName": "engagements(enable:showMultiple:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -41723,13 +41723,20 @@
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@PXKit@objc(cs)GainsightPX(im)engagementsWithEnable:",
-            "mangledName": "$s5PXKit11GainsightPXC11engagements6enableySb_tF",
+            "usr": "c:@M@PXKit@objc(cs)GainsightPX(im)engagementsWithEnable:showMultiple:",
+            "mangledName": "$s5PXKit11GainsightPXC11engagements6enable12showMultipleySb_SbtF",
             "moduleName": "PXKit",
-            "objc_name": "engagementsWithEnable:",
+            "objc_name": "engagementsWithEnable:showMultiple:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -60400,7 +60407,7 @@
       "kind": "StringLiteral",
       "offset": 172,
       "length": 8,
-      "value": "\"1.13.3\""
+      "value": "\"1.13.4\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/GlobalContext\/GlobalContext.swift",
@@ -60866,10 +60873,24 @@
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/GainsightPX.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3458,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/GainsightPX.swift",
       "kind": "IntegerLiteral",
-      "offset": 13643,
+      "offset": 13695,
       "length": 1,
       "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/GainsightPX.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15729,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/EditorHandler\/EditorDisplayHandler.swift",
@@ -61251,10 +61272,38 @@
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/EngagementManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2055,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/EngagementManager.swift",
+      "kind": "Array",
+      "offset": 2110,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/EngagementManager.swift",
       "kind": "StringLiteral",
-      "offset": 2025,
+      "offset": 2254,
       "length": 28,
       "value": "\"com.gainsightpx.ruleengine\""
+    },
+    {
+      "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/EngagementManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2385,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/EngagementManager.swift",
+      "kind": "Array",
+      "offset": 2445,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/JSBridge\/JSBridgeKeys.swift",
@@ -61392,14 +61441,14 @@
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/EventHandler\/EventsSemaphorHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 626,
+      "offset": 648,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/EventHandler\/EventsSemaphorHandler.swift",
       "kind": "Array",
-      "offset": 749,
+      "offset": 771,
       "length": 2,
       "value": "[]"
     },
@@ -61979,15 +62028,22 @@
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/GPXWebView\/GPXWebViewPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 821,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/GPXWebView\/GPXWebViewPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 7773,
+      "offset": 7828,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/GPXWebView\/GPXWebViewPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 15939,
+      "offset": 16098,
       "length": 5,
       "value": "false"
     },

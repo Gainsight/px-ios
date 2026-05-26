@@ -1,6 +1,6 @@
 [![N|Solid](https://app-dev.aptrinsic.com/home/gainsight-px-logo.svg)](https://app.aptrinsic.com)
 
-![version](https://img.shields.io/badge/version-1.13.3-blue.svg) ![coverage](https://img.shields.io/badge/coverage-81%25-yellowgreen)
+![version](https://img.shields.io/badge/version-1.13.4-blue.svg) ![coverage](https://img.shields.io/badge/coverage-81%25-yellowgreen)
 
 # Installation
 
@@ -31,7 +31,7 @@ Run a pod install from your terminal, or from CocoaPods.app.
 You can also still use the previous method of installing the framework from GitHub:
 
 ```
-pod 'PXKit', :git => 'git@github.com:Gainsight/px-ios.git', tag: '1.13.3'
+pod 'PXKit', :git => 'git@github.com:Gainsight/px-ios.git', tag: '1.13.4'
 ```
 
 > or
@@ -49,6 +49,9 @@ More detailed documentation is available at: <https://support.gainsight.com/PX/M
 More detailed documentation is available at: <https://support.gainsight.com/PX/Mobile/01Getting_Started/Integrate_Gainsight_PX_Editor_with_your_Mobile_Platform>
 
 # Release Notes
+
+Version 1.13.4
+* Added support for showing multiple engagements sequentially
 
 Version 1.13.3
 * Crash fix

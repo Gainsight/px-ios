@@ -493,7 +493,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GainsightPX 
 - (void)flushWithErrorCompletionBlock:(void (^ _Nullable)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nullable, NSError * _Nullable))errorCompletionBlock;
 + (void)enable;
 + (void)disable;
-- (void)engagementsWithEnable:(BOOL)enable;
+- (void)engagementsWithEnable:(BOOL)enable showMultiple:(BOOL)showMultiple;
 - (void)reset;
 - (void)hardReset;
 + (NSString * _Nonnull)libraryVersion SWIFT_WARN_UNUSED_RESULT;
