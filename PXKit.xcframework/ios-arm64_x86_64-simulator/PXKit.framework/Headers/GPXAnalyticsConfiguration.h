@@ -52,7 +52,7 @@ typedef NSMutableURLRequest *_Nonnull (^GPXRequestFactory)(NSURL *_Nonnull);
 @property (nonatomic, assign) BOOL shouldUseLocationServices;
 
 /**
- * Whether the analytics client should track advertisting info. `YES` by default.
+ * Whether the analytics client should track advertising info. `YES` by default.
  */
 @property (nonatomic, assign) BOOL enableAdvertisingTracking;
 
@@ -81,7 +81,7 @@ typedef NSMutableURLRequest *_Nonnull (^GPXRequestFactory)(NSURL *_Nonnull);
 
 
 /**
- * Whether the analytics client should record bluetooth information. If `YES`, please make sure to add a description for `NSBluetoothPeripheralUsageDescription` in your `Info.plist` explaining explaining why your app is accessing Bluetooth APIs. `NO` by default.
+ * Whether the analytics client should record bluetooth information. If `YES`, please make sure to add a description for `NSBluetoothPeripheralUsageDescription` in your `Info.plist` explaining why your app is accessing Bluetooth APIs. `NO` by default.
  */
 @property (nonatomic, assign) BOOL shouldUseBluetooth;
 
@@ -153,7 +153,7 @@ typedef NSMutableURLRequest *_Nonnull (^GPXRequestFactory)(NSURL *_Nonnull);
  * @"(fb\\d+://authorize#access_token=)([^ ]+)": @"$1((redacted/fb-auth-token))"
  * @endcode
  *
- * This will replace any matching occurences to a redacted version:
+ * This will replace any matching occurrences with a redacted version:
  * @code
  * "fb123456789://authorize#access_token=secretsecretsecretsecret&some=data"
  * @endcode
