@@ -2230,6 +2230,8 @@
         "usr": "s:5PXKit26PXNetworkingURLConvertibleP",
         "mangledName": "$s5PXKit26PXNetworkingURLConvertibleP",
         "moduleName": "PXKit",
+        "genericSig": "<τ_0_0 : Swift.Sendable>",
+        "sugared_genericSig": "<Self : Swift.Sendable>",
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -2248,6 +2250,20 @@
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -14314,11 +14330,7 @@
                 "usr": "s:5PXKit12PXNetworkingC15SessionDelegateC03urlC0_10didReceive17completionHandlerySo12NSURLSessionC_So28NSURLAuthenticationChallengeCySo0j4AuthL11DispositionV_So15NSURLCredentialCSgtctF",
                 "mangledName": "$s5PXKit12PXNetworkingC15SessionDelegateC03urlC0_10didReceive17completionHandlerySo12NSURLSessionC_So28NSURLAuthenticationChallengeCySo0j4AuthL11DispositionV_So15NSURLCredentialCSgtctF",
                 "moduleName": "PXKit",
-                "isOpen": true,
-                "objc_name": "URLSession:didReceiveChallenge:completionHandler:",
                 "declAttributes": [
-                  "Dynamic",
-                  "ObjC",
                   "AccessControl",
                   "RawDocComment"
                 ],
@@ -14505,11 +14517,7 @@
                 "usr": "s:5PXKit12PXNetworkingC15SessionDelegateC03urlC0_4task10didReceive17completionHandlerySo12NSURLSessionC_So0K4TaskCSo28NSURLAuthenticationChallengeCySo0k4AuthN11DispositionV_So15NSURLCredentialCSgtctF",
                 "mangledName": "$s5PXKit12PXNetworkingC15SessionDelegateC03urlC0_4task10didReceive17completionHandlerySo12NSURLSessionC_So0K4TaskCSo28NSURLAuthenticationChallengeCySo0k4AuthN11DispositionV_So15NSURLCredentialCSgtctF",
                 "moduleName": "PXKit",
-                "isOpen": true,
-                "objc_name": "URLSession:task:didReceiveChallenge:completionHandler:",
                 "declAttributes": [
-                  "Dynamic",
-                  "ObjC",
                   "AccessControl",
                   "RawDocComment"
                 ],
@@ -15292,6 +15300,13 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Copyable",
                 "printedName": "Copyable",
                 "usr": "s:s8CopyableP",
@@ -15352,13 +15367,6 @@
                 "printedName": "CustomDebugStringConvertible",
                 "usr": "s:s28CustomDebugStringConvertibleP",
                 "mangledName": "$ss28CustomDebugStringConvertibleP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Sendable",
-                "printedName": "Sendable",
-                "usr": "s:s8SendableP",
-                "mangledName": "$ss8SendableP"
               },
               {
                 "kind": "Conformance",
@@ -15553,6 +15561,20 @@
                     "printedName": "Escapable",
                     "usr": "s:s9EscapableP",
                     "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Sendable",
+                    "printedName": "Sendable",
+                    "usr": "s:s8SendableP",
+                    "mangledName": "$ss8SendableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "SendableMetatype",
+                    "printedName": "SendableMetatype",
+                    "usr": "s:s16SendableMetatypeP",
+                    "mangledName": "$ss16SendableMetatypeP"
                   }
                 ]
               },
@@ -16337,6 +16359,20 @@
                     "printedName": "Escapable",
                     "usr": "s:s9EscapableP",
                     "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Sendable",
+                    "printedName": "Sendable",
+                    "usr": "s:s8SendableP",
+                    "mangledName": "$ss8SendableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "SendableMetatype",
+                    "printedName": "SendableMetatype",
+                    "usr": "s:s16SendableMetatypeP",
+                    "mangledName": "$ss16SendableMetatypeP"
                   }
                 ]
               },
@@ -16655,6 +16691,20 @@
                     "printedName": "Escapable",
                     "usr": "s:s9EscapableP",
                     "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Sendable",
+                    "printedName": "Sendable",
+                    "usr": "s:s8SendableP",
+                    "mangledName": "$ss8SendableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "SendableMetatype",
+                    "printedName": "SendableMetatype",
+                    "usr": "s:s16SendableMetatypeP",
+                    "mangledName": "$ss16SendableMetatypeP"
                   }
                 ]
               },
@@ -17025,6 +17075,20 @@
                     "printedName": "Escapable",
                     "usr": "s:s9EscapableP",
                     "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Sendable",
+                    "printedName": "Sendable",
+                    "usr": "s:s8SendableP",
+                    "mangledName": "$ss8SendableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "SendableMetatype",
+                    "printedName": "SendableMetatype",
+                    "usr": "s:s16SendableMetatypeP",
+                    "mangledName": "$ss16SendableMetatypeP"
                   }
                 ]
               },
@@ -19624,6 +19688,13 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Copyable",
                 "printedName": "Copyable",
                 "usr": "s:s8CopyableP",
@@ -19684,6 +19755,13 @@
                 "printedName": "CustomDebugStringConvertible",
                 "usr": "s:s28CustomDebugStringConvertibleP",
                 "mangledName": "$ss28CustomDebugStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           },
@@ -22009,6 +22087,20 @@
                 "printedName": "Escapable",
                 "usr": "s:s9EscapableP",
                 "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           },
@@ -29752,6 +29844,20 @@
                 "printedName": "Escapable",
                 "usr": "s:s9EscapableP",
                 "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           },
@@ -34698,6 +34804,13 @@
                   },
                   {
                     "kind": "Conformance",
+                    "name": "Sendable",
+                    "printedName": "Sendable",
+                    "usr": "s:s8SendableP",
+                    "mangledName": "$ss8SendableP"
+                  },
+                  {
+                    "kind": "Conformance",
                     "name": "RawRepresentable",
                     "printedName": "RawRepresentable",
                     "children": [
@@ -34739,6 +34852,13 @@
                     ],
                     "usr": "s:s10SetAlgebraP",
                     "mangledName": "$ss10SetAlgebraP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "SendableMetatype",
+                    "printedName": "SendableMetatype",
+                    "usr": "s:s16SendableMetatypeP",
+                    "mangledName": "$ss16SendableMetatypeP"
                   },
                   {
                     "kind": "Conformance",
@@ -42101,6 +42221,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -42161,6 +42288,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -48328,7 +48462,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -48826,7 +48961,8 @@
             "objc_name": "initWithApiKey:",
             "declAttributes": [
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -48871,6 +49007,13 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
           {
             "kind": "Conformance",
             "name": "Copyable",
@@ -48933,6 +49076,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -55009,6 +55159,20 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -60406,8 +60570,8 @@
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/PXVersion.swift",
       "kind": "StringLiteral",
       "offset": 172,
-      "length": 8,
-      "value": "\"1.13.4\""
+      "length": 7,
+      "value": "\"2.0.0\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/GlobalContext\/GlobalContext.swift",
@@ -60419,7 +60583,7 @@
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Alerthandler\/AlertHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 437,
+      "offset": 439,
       "length": 3,
       "value": "0.2"
     },
@@ -60552,7 +60716,7 @@
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionDelegate.swift",
       "kind": "Dictionary",
-      "offset": 10071,
+      "offset": 10305,
       "length": 3,
       "value": "[]"
     },
@@ -60699,14 +60863,14 @@
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/UIImage+AlamofireImage.swift",
       "kind": "StringLiteral",
-      "offset": 3306,
+      "offset": 3326,
       "length": 21,
       "value": "\"af_UIImage.Inflated\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/UIImage+AlamofireImage.swift",
       "kind": "BooleanLiteral",
-      "offset": 9749,
+      "offset": 9769,
       "length": 5,
       "value": "false"
     },
@@ -60727,70 +60891,70 @@
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/ServerTrustPolicy.swift",
       "kind": "StringLiteral",
-      "offset": 3085,
+      "offset": 3105,
       "length": 37,
       "value": "\"URLSession.ServerTrustPolicyManager\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/UIImageView+AlamofireImage.swift",
       "kind": "StringLiteral",
-      "offset": 4605,
+      "offset": 4625,
       "length": 32,
       "value": "\"af_UIImageView.ImageDownloader\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/UIImageView+AlamofireImage.swift",
       "kind": "StringLiteral",
-      "offset": 4681,
+      "offset": 4721,
       "length": 38,
       "value": "\"af_UIImageView.SharedImageDownloader\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/UIImageView+AlamofireImage.swift",
       "kind": "StringLiteral",
-      "offset": 4762,
+      "offset": 4822,
       "length": 37,
       "value": "\"af_UIImageView.ActiveRequestReceipt\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/UIImageView+AlamofireImage.swift",
       "kind": "BooleanLiteral",
-      "offset": 10769,
+      "offset": 10829,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/UIImageView+AlamofireImage.swift",
       "kind": "BooleanLiteral",
-      "offset": 14511,
+      "offset": 14571,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/TouchDetection\/TouchInterceptor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1070,
+      "offset": 1086,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/RuleEngine\/RuleEngine.swift",
       "kind": "StringLiteral",
-      "offset": 827,
+      "offset": 848,
       "length": 18,
       "value": "\"com.queue.rulejs\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/RuleEngine\/RuleEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 880,
+      "offset": 901,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/RuleEngine\/RuleEngine.swift",
       "kind": "StringLiteral",
-      "offset": 1664,
+      "offset": 1685,
       "length": 4,
       "value": "\"[]\""
     },
@@ -60818,91 +60982,84 @@
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/GainsightPX.swift",
       "kind": "IntegerLiteral",
-      "offset": 2040,
+      "offset": 2061,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/GainsightPX.swift",
       "kind": "IntegerLiteral",
-      "offset": 2078,
+      "offset": 2099,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/GainsightPX.swift",
       "kind": "BooleanLiteral",
-      "offset": 2290,
+      "offset": 2311,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/GainsightPX.swift",
       "kind": "Dictionary",
-      "offset": 2783,
+      "offset": 2804,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/GainsightPX.swift",
       "kind": "BooleanLiteral",
-      "offset": 2891,
+      "offset": 2912,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/GainsightPX.swift",
       "kind": "BooleanLiteral",
-      "offset": 2934,
+      "offset": 2955,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/GainsightPX.swift",
       "kind": "BooleanLiteral",
-      "offset": 3016,
+      "offset": 3037,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/GainsightPX.swift",
       "kind": "BooleanLiteral",
-      "offset": 3332,
+      "offset": 3353,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/GainsightPX.swift",
       "kind": "BooleanLiteral",
-      "offset": 3458,
+      "offset": 3479,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/GainsightPX.swift",
       "kind": "IntegerLiteral",
-      "offset": 13695,
+      "offset": 13716,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/GainsightPX.swift",
       "kind": "BooleanLiteral",
-      "offset": 15729,
+      "offset": 15750,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/EditorHandler\/EditorDisplayHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 984,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Editor\/EditorHandler\/EditorDisplayHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 1349,
+      "offset": 1360,
       "length": 1,
       "value": "0"
     },
@@ -60923,7 +61080,7 @@
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/TaskDelegate.swift",
       "kind": "IntegerLiteral",
-      "offset": 8284,
+      "offset": 8326,
       "length": 1,
       "value": "0"
     },
@@ -61154,49 +61311,49 @@
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/ImageDownloader.swift",
       "kind": "IntegerLiteral",
-      "offset": 5303,
+      "offset": 5324,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/ImageDownloader.swift",
       "kind": "Array",
-      "offset": 5345,
+      "offset": 5366,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/ImageDownloader.swift",
       "kind": "Dictionary",
-      "offset": 5406,
+      "offset": 5427,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/ImageDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 5517,
+      "offset": 5538,
       "length": 61,
       "value": "\"org.alamofire.imagedownloader.synchronizationqueue-%08x%08x\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/ImageDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 5766,
+      "offset": 5787,
       "length": 54,
       "value": "\"org.alamofire.imagedownloader.responsequeue-%08x%08x\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/ImageDownloader.swift",
       "kind": "IntegerLiteral",
-      "offset": 9243,
+      "offset": 9264,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/ImageDownloader.swift",
       "kind": "IntegerLiteral",
-      "offset": 10572,
+      "offset": 10593,
       "length": 1,
       "value": "4"
     },
@@ -61273,35 +61430,35 @@
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/EngagementManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2055,
+      "offset": 2076,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/EngagementManager.swift",
       "kind": "Array",
-      "offset": 2110,
+      "offset": 2131,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/EngagementManager.swift",
       "kind": "StringLiteral",
-      "offset": 2254,
+      "offset": 2275,
       "length": 28,
       "value": "\"com.gainsightpx.ruleengine\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/EngagementManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2385,
+      "offset": 2406,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/EngagementManager.swift",
       "kind": "Array",
-      "offset": 2445,
+      "offset": 2466,
       "length": 2,
       "value": "[]"
     },
@@ -61462,91 +61619,91 @@
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/UIButton+AlamofireImage.swift",
       "kind": "StringLiteral",
-      "offset": 1547,
+      "offset": 1567,
       "length": 32,
       "value": "\"px_af_UIButton.ImageDownloader\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/UIButton+AlamofireImage.swift",
       "kind": "StringLiteral",
-      "offset": 1623,
+      "offset": 1663,
       "length": 38,
       "value": "\"px_af_UIButton.SharedImageDownloader\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/UIButton+AlamofireImage.swift",
       "kind": "StringLiteral",
-      "offset": 1697,
+      "offset": 1757,
       "length": 30,
       "value": "\"px_af_UIButton.ImageReceipts\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/UIButton+AlamofireImage.swift",
       "kind": "StringLiteral",
-      "offset": 1773,
+      "offset": 1853,
       "length": 40,
       "value": "\"px_af_UIButton.BackgroundImageReceipts\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/AnalyticsConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 737,
+      "offset": 758,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/AnalyticsConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 929,
+      "offset": 950,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/AnalyticsConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 1111,
+      "offset": 1132,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/AnalyticsConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1327,
+      "offset": 1348,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/AnalyticsConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1537,
+      "offset": 1558,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/AnalyticsConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 1736,
+      "offset": 1757,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/AnalyticsConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2242,
+      "offset": 2518,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/AnalyticsConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2384,
+      "offset": 2660,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/AnalyticsConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 2544,
+      "offset": 2820,
       "length": 4,
       "value": "true"
     },
@@ -61665,77 +61822,77 @@
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/CrashEngine\/CrashReporter.swift",
       "kind": "BooleanLiteral",
-      "offset": 1511,
+      "offset": 1551,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/CrashEngine\/CrashReporter.swift",
       "kind": "BooleanLiteral",
-      "offset": 1571,
+      "offset": 1631,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/CrashEngine\/CrashReporter.swift",
       "kind": "BooleanLiteral",
-      "offset": 4418,
+      "offset": 4478,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/CrashEngine\/CrashReporter.swift",
       "kind": "StringLiteral",
-      "offset": 4560,
+      "offset": 4620,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/CrashEngine\/CrashReporter.swift",
       "kind": "BooleanLiteral",
-      "offset": 4955,
+      "offset": 5015,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/CrashEngine\/CrashReporter.swift",
       "kind": "BooleanLiteral",
-      "offset": 5227,
+      "offset": 5287,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/CrashEngine\/CrashReporter.swift",
       "kind": "BooleanLiteral",
-      "offset": 5263,
+      "offset": 5323,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/CrashEngine\/CrashReporter.swift",
       "kind": "IntegerLiteral",
-      "offset": 5435,
+      "offset": 5495,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/CrashEngine\/CrashReporter.swift",
       "kind": "StringLiteral",
-      "offset": 5489,
+      "offset": 5549,
       "length": 62,
       "value": "\"Signal \""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/CrashEngine\/CrashReporter.swift",
       "kind": "StringLiteral",
-      "offset": 5525,
+      "offset": 5585,
       "length": 1,
       "value": "\"(\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/CrashEngine\/CrashReporter.swift",
       "kind": "StringLiteral",
-      "offset": 5535,
+      "offset": 5595,
       "length": 1,
       "value": "\") was raised.\n\""
     },
@@ -62036,14 +62193,14 @@
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/GPXWebView\/GPXWebViewPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 7828,
+      "offset": 7884,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/GPXWebView\/GPXWebViewPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 16098,
+      "offset": 16154,
       "length": 5,
       "value": "false"
     },
@@ -62148,7 +62305,7 @@
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/JSBridge\/JSBridgeWebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 4415,
+      "offset": 4962,
       "length": 4,
       "value": "true"
     },
@@ -62183,273 +62340,273 @@
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 2937,
+      "offset": 2958,
       "length": 28,
       "value": "\"gzip;q=1.0, compress;q=0.5\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3143,
+      "offset": 3164,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "FloatLiteral",
-      "offset": 3218,
+      "offset": 3239,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "FloatLiteral",
-      "offset": 3241,
+      "offset": 3262,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 3269,
+      "offset": 3290,
       "length": 30,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 3285,
+      "offset": 3306,
       "length": 1,
       "value": "\";q=\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 3298,
+      "offset": 3319,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 3332,
+      "offset": 3353,
       "length": 4,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 3733,
+      "offset": 3754,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 3829,
+      "offset": 3850,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 3881,
+      "offset": 3902,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 3925,
+      "offset": 3946,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 4020,
+      "offset": 4041,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 4230,
+      "offset": 4251,
       "length": 73,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 4254,
+      "offset": 4275,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 4278,
+      "offset": 4299,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 4302,
+      "offset": 4323,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 4423,
+      "offset": 4444,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 4816,
+      "offset": 4837,
       "length": 28,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 4826,
+      "offset": 4847,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 4843,
+      "offset": 4864,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 5110,
+      "offset": 5131,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 5178,
+      "offset": 5199,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 5246,
+      "offset": 5267,
       "length": 20,
       "value": "\"Alamofire\/\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 5265,
+      "offset": 5286,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 5339,
+      "offset": 5360,
       "length": 98,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 5353,
+      "offset": 5374,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 5367,
+      "offset": 5388,
       "length": 1,
       "value": "\" (\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 5378,
+      "offset": 5399,
       "length": 1,
       "value": "\"; build:\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 5397,
+      "offset": 5418,
       "length": 1,
       "value": "\"; \""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 5415,
+      "offset": 5436,
       "length": 1,
       "value": "\") \""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 5436,
+      "offset": 5457,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 5496,
+      "offset": 5517,
       "length": 11,
       "value": "\"Alamofire\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 5574,
+      "offset": 5595,
       "length": 17,
       "value": "\"Accept-Encoding\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 5625,
+      "offset": 5646,
       "length": 17,
       "value": "\"Accept-Language\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 5676,
+      "offset": 5697,
       "length": 12,
       "value": "\"User-Agent\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5898,
+      "offset": 5919,
       "length": 10,
       "value": "10000000"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6287,
+      "offset": 6308,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/SessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 7502,
+      "offset": 7523,
       "length": 32,
       "value": "\"org.alamofire.session-manager.\""
     },
@@ -62491,42 +62648,42 @@
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/Request+AlamofireImage.swift",
       "kind": "Array",
-      "offset": 1454,
+      "offset": 1474,
       "length": 264,
       "value": "[\"image\/tiff\", \"image\/jpeg\", \"image\/gif\", \"image\/png\", \"image\/ico\", \"image\/x-icon\", \"image\/bmp\", \"image\/x-bmp\", \"image\/x-xbitmap\", \"image\/x-ms-bmp\", \"image\/x-win-bitmap\"]"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/Request+AlamofireImage.swift",
       "kind": "Array",
-      "offset": 1791,
+      "offset": 1811,
       "length": 10,
       "value": "[255, 216]"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/Request+AlamofireImage.swift",
       "kind": "BooleanLiteral",
-      "offset": 3684,
+      "offset": 3704,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/Request+AlamofireImage.swift",
       "kind": "BooleanLiteral",
-      "offset": 6564,
+      "offset": 6584,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/Request+AlamofireImage.swift",
       "kind": "BooleanLiteral",
-      "offset": 8814,
+      "offset": 8834,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/Request+AlamofireImage.swift",
       "kind": "BooleanLiteral",
-      "offset": 9490,
+      "offset": 9510,
       "length": 4,
       "value": "true"
     },
@@ -63016,28 +63173,28 @@
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/Request.swift",
       "kind": "IntegerLiteral",
-      "offset": 17458,
+      "offset": 17468,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/Request.swift",
       "kind": "IntegerLiteral",
-      "offset": 17463,
+      "offset": 17473,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/Request.swift",
       "kind": "IntegerLiteral",
-      "offset": 17665,
+      "offset": 17675,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Vendors\/PXNetworking\/Request.swift",
       "kind": "IntegerLiteral",
-      "offset": 17670,
+      "offset": 17680,
       "length": 1,
       "value": "1"
     },
