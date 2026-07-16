@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
-// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PXKit
+// swift-compiler-version: Apple Swift version 6.2.3 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name PXKit
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import Compression
 import CoreFoundation
@@ -214,7 +214,7 @@ public enum ConnectionMode : Swift.Equatable {
   @objc deinit
 }
 public typealias PXNetworkingImage = UIKit.UIImage
-public protocol PXNetworkingURLConvertible {
+public protocol PXNetworkingURLConvertible : Swift.Sendable {
   func px_asURL() throws -> Foundation.URL
 }
 extension Swift.String : PXKit.PXNetworkingURLConvertible {
@@ -461,7 +461,7 @@ extension PXKit.PXNetworking {
   }
 }
 extension PXKit.PXNetworking {
-  @objc open class SessionDelegate : ObjectiveC.NSObject {
+  @objc open class SessionDelegate : ObjectiveC.NSObject, @unchecked Swift.Sendable {
     open var sessionDidBecomeInvalidWithError: ((Foundation.URLSession, (any Swift.Error)?) -> Swift.Void)?
     open var sessionDidReceiveChallenge: ((Foundation.URLSession, Foundation.URLAuthenticationChallenge) -> (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?))?
     open var sessionDidReceiveChallengeWithCompletion: ((Foundation.URLSession, Foundation.URLAuthenticationChallenge, @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void) -> Swift.Void)?
@@ -527,7 +527,7 @@ extension PXKit.PXNetworking.SessionDelegate : Foundation.URLSessionDelegate {
   @objc dynamic open func urlSession(_ session: Foundation.URLSession, didBecomeInvalidWithError error: (any Swift.Error)?)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  @objc dynamic open func urlSession(_ session: Foundation.URLSession, didReceive challenge: Foundation.URLAuthenticationChallenge, completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void)
+  public func urlSession(_ session: Foundation.URLSession, didReceive challenge: Foundation.URLAuthenticationChallenge, completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void)
   #endif
   @objc dynamic open func urlSessionDidFinishEvents(forBackgroundURLSession session: Foundation.URLSession)
 }
@@ -536,7 +536,7 @@ extension PXKit.PXNetworking.SessionDelegate : Foundation.URLSessionTaskDelegate
   @objc dynamic open func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, willPerformHTTPRedirection response: Foundation.HTTPURLResponse, newRequest request: Foundation.URLRequest, completionHandler: @escaping (Foundation.URLRequest?) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  @objc dynamic open func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didReceive challenge: Foundation.URLAuthenticationChallenge, completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void)
+  public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didReceive challenge: Foundation.URLAuthenticationChallenge, completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   @objc dynamic open func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, needNewBodyStream completionHandler: @escaping (Foundation.InputStream?) -> Swift.Void)
@@ -584,12 +584,12 @@ public class PXNetworking {
 }
 extension PXKit.PXNetworking {
   public enum AFError : Swift.Error {
-    public enum ParameterEncodingFailureReason {
+    public enum ParameterEncodingFailureReason : @unchecked Swift.Sendable {
       case missingURL
       case jsonEncodingFailed(error: any Swift.Error)
       case propertyListEncodingFailed(error: any Swift.Error)
     }
-    public enum MultipartEncodingFailureReason {
+    public enum MultipartEncodingFailureReason : @unchecked Swift.Sendable {
       case bodyPartURLInvalid(url: Foundation.URL)
       case bodyPartFilenameInvalid(in: Foundation.URL)
       case bodyPartFileNotReachable(at: Foundation.URL)
@@ -604,14 +604,14 @@ extension PXKit.PXNetworking {
       case outputStreamWriteFailed(error: any Swift.Error)
       case inputStreamReadFailed(error: any Swift.Error)
     }
-    public enum ResponseValidationFailureReason {
+    public enum ResponseValidationFailureReason : Swift.Sendable {
       case dataFileNil
       case dataFileReadFailed(at: Foundation.URL)
       case missingContentType(acceptableContentTypes: [Swift.String])
       case unacceptableContentType(acceptableContentTypes: [Swift.String], responseContentType: Swift.String)
       case unacceptableStatusCode(code: Swift.Int)
     }
-    public enum ResponseSerializationFailureReason {
+    public enum ResponseSerializationFailureReason : @unchecked Swift.Sendable {
       case inputDataNil
       case inputDataNilOrZeroLength
       case inputFileNil
@@ -877,7 +877,7 @@ extension UIKit.UIImageView {
   @objc public init(id: Swift.String)
   @objc deinit
 }
-@objc public class GainsightPX : ObjectiveC.NSObject {
+@objc public class GainsightPX : ObjectiveC.NSObject, @unchecked Swift.Sendable {
   @objc weak public var uiMapperConsumer: (any PXKit.UIMapperConsuming)? {
     @objc get
     @objc set
@@ -945,7 +945,7 @@ extension PXKit.GainsightPX {
   #endif
 }
 extension PXKit.PXNetworking {
-  @objc open class TaskDelegate : ObjectiveC.NSObject {
+  @objc open class TaskDelegate : ObjectiveC.NSObject, @unchecked Swift.Sendable {
     final public let queue: Foundation.OperationQueue
     #if compiler(>=5.3) && $NonescapableTypes
     public var data: Foundation.Data? {
@@ -1014,7 +1014,7 @@ extension PXKit.PXNetworking {
     final public let receiptID: Swift.String
     @objc deinit
   }
-  open class ImageDownloader {
+  open class ImageDownloader : @unchecked Swift.Sendable {
     public typealias CompletionHandler = (PXKit.PXNetworking.DataResponse<PXKit.PXNetworkingImage>) -> Swift.Void
     public typealias ProgressHandler = PXKit.PXNetworking.DataRequest.ProgressHandler
     public enum DownloadPrioritization {
@@ -1167,7 +1167,7 @@ extension UIKit.UIButton {
   #endif
   @_Concurrency.MainActor @preconcurrency public func px_af_cancelBackgroundImageRequest(for state: PXKit.ControlState)
 }
-@objc(PXAnalyticsConfigurations) public class AnalyticsConfigurations : ObjectiveC.NSObject {
+@objc(PXAnalyticsConfigurations) public class AnalyticsConfigurations : ObjectiveC.NSObject, @unchecked Swift.Sendable {
   @objc public var apiKey: Swift.String
   @objc public var crypto: (any PXKit.GPXCrypto)?
   @objc public var connection: PXKit.Connection
@@ -1482,7 +1482,7 @@ extension PXKit.PXNetworking.Result {
   public func ifFailure(_ closure: () throws -> Swift.Void) rethrows -> PXKit.PXNetworking.Result<Value>
 }
 extension PXKit.PXNetworking {
-  open class SessionManager {
+  open class SessionManager : @unchecked Swift.Sendable {
     public enum MultipartFormDataEncodingResult {
       case success(request: PXKit.PXNetworking.UploadRequest, streamingFromDisk: Swift.Bool, streamFileURL: Foundation.URL?)
       case failure(any Swift.Error)
@@ -1863,7 +1863,7 @@ extension PXKit.PXNetworking {
     @objc deinit
   }
   open class DownloadRequest : PXKit.PXNetworking.Request {
-    public struct DownloadOptions : Swift.OptionSet {
+    public struct DownloadOptions : Swift.OptionSet, Swift.Sendable {
       public let rawValue: Swift.UInt
       public static let createIntermediateDirectories: PXKit.PXNetworking.DownloadRequest.DownloadOptions
       public static let removePreviousFile: PXKit.PXNetworking.DownloadRequest.DownloadOptions
