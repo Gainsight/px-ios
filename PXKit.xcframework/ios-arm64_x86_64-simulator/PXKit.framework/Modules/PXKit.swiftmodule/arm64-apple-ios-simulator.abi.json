@@ -60571,7 +60571,7 @@
       "kind": "StringLiteral",
       "offset": 172,
       "length": 7,
-      "value": "\"2.0.0\""
+      "value": "\"2.0.1\""
     },
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/GlobalContext\/GlobalContext.swift",
@@ -61605,7 +61605,7 @@
     {
       "filePath": "\/Users\/vpatil\/Documents\/Development\/Gainsight-SDKs\/iOS\/ios-sdk\/GainsightPX\/GainsightPX\/Engagements\/EventHandler\/EventsSemaphorHandler.swift",
       "kind": "Array",
-      "offset": 771,
+      "offset": 1169,
       "length": 2,
       "value": "[]"
     },
